@@ -1,0 +1,77 @@
+{
+	"name": "vscode-react-snippets",
+	"displayName": "React Snippets",
+	"description": "ReactJS, Redux and React Router code snippets with hooks support.",
+	"version": "2.0.1",
+	"publisher": "ugross",
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"theme": "light"
+	},
+	"license": "SEE LICENSE IN LICENSE.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/UgRoss/vscode-react"
+	},
+	"engines": {
+		"vscode": "^1.19.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"keywords": [
+		"react",
+		"redux",
+		"snippets",
+		"es6",
+		"es7"
+	],
+	"author": "Rostyslav Ugryniuk <contact@ugross.dev>",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./build/snippets/javascript.json"
+			},
+			{
+				"language": "javascriptreact",
+				"path": "./build/snippets/javascript.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./build/snippets/typescript.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./build/snippets/typescript.json"
+			}
+		]
+	},
+	"scripts": {
+		"compile": "tsc",
+		"watch": "tsc -watch",
+		"build": "npm run compile && node build/generateSnippetsPaths.js",
+		"vscode:prepublish": "npm run build"
+	},
+	"devDependencies": {
+		"@types/node": "^13.13.4",
+		"@types/rimraf": "^3.0.0",
+		"prettier": "^2.0.5",
+		"typescript": "^3.8.3",
+		"vscode": "^1.1.37"
+	},
+	"dependencies": {
+		"rimraf": "^3.0.2"
+	},
+	"__metadata": {
+		"id": "b3e58f4c-0db1-4926-b308-cbcd33d3fcd1",
+		"publisherId": "7aa84474-bb97-40ab-9cce-ac5bcfa43025",
+		"publisherDisplayName": "Ross",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1679910698764
+	}
+}
