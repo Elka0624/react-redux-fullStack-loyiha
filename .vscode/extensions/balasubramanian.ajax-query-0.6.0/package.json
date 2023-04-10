@@ -1,0 +1,100 @@
+{
+	"name": "ajax-query",
+	"displayName": "AJAX Query",
+	"description": "Execute SQL/ODBC Queries with WebAPI",
+	"version": "0.6.0",
+	"publisher": "Balasubramanian",
+	"engines": {
+		"vscode": "^1.37.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.execquery",
+		"onCommand:extension.chngenv",
+		"onCommand:extension.showcols",
+		"onCommand:extension.hidepnl"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.execquery",
+				"title": "HiveConnect : Execute Query"
+			},
+			{
+				"command": "extension.chngenv",
+				"title": "HiveConnect: Switch Environment"
+			},
+			{
+				"command": "extension.signout",
+				"title": "HiveConnect: Disconnect"
+			},
+			{
+				"command": "extension.hidepnl",
+				"title": "HiveConnect: Toggle Results Pane"
+			},
+			{
+				"command": "extension.showcols",
+				"title": "HiveConnect: Show Column Names"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "extension.execquery",
+				"key": "ctrl+enter",
+				"mac": "shift+cmd+f",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "extension.hidepnl",
+				"key": "ctrl+r",
+				"mac": "shift+cmd+r",
+				"when": "editorTextFocus"
+			},
+			{
+				"command": "extension.showcols",
+				"key": "ctrl+shift+c",
+				"mac": "shift+cmd+r",
+				"when": "editorTextFocus"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.6",
+		"@types/node": "^10.12.21",
+		"@types/vscode": "^1.37.0",
+		"glob": "^7.1.4",
+		"mocha": "^6.1.4",
+		"typescript": "^3.3.1",
+		"tslint": "^5.12.1",
+		"vscode-test": "^1.0.2"
+	},
+	"extensionDependencies": [
+		"ms-mssql.mssql"
+	],
+	"dependencies": {
+		"@types/node-fetch": "^2.5.0",
+		"node-fetch": "^2.6.0"
+	},
+	"__metadata": {
+		"id": "ea3b549c-6753-4252-bb11-29d08f2f68ce",
+		"publisherId": "b8ec0ebd-4920-4f7c-9a71-9b59953cb5d9",
+		"publisherDisplayName": "Balasubramanian",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1671609092358
+	}
+}

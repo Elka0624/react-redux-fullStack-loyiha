@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./site.css" rel="stylesheet" />
+	<link href="./css/all.min.css" rel="stylesheet" />
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" /> -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" /> -->
+
+	<script src="./site.js"></script>
+	<script>
+		var pnlnme = "<pnlnme>";
+		var usrname = "<usrnme>";
+		var sesid = "<sesid>";
+	</script>
+</head>
+<body style="overflow: hidden" onload="onld()">
+	<div id="message" class="description" style="display:none;margin-top:20px;margin-left:20px;font-size: 15px;">
+		No query data available.. You can use cntrl + enter to execute Query
+	</div>
+	<div id="loginstatus" style="display:block;margin-top:10px;font-size: 15px;">
+		<span class="description" style="float: left;margin-top:2px;">Status :&nbsp;&nbsp;</span>
+		<div class="hightext" id="userstatus" style="float: left;margin-top:2px;"">Logging in...</div>
+		<div class="lds-ellipsis" id="loginstatus" style="display:block;float:left;"><div></div><div></div><div></div><div></div></div>
+	</div>
+	<div id="divTable" style="display:none;">
+		<div id="divresult" style="display: none;overflow-x:auto;overflow-y:hidden;">
+			<Table id="ResultHeaders" style="table-layout: auto;height:20px;border:1px solid;overflow:visible;">
+				<thead id="tblhdr">
+				</thead>
+			</Table>
+			<div id="ResultTable" style="width:auto;overflow-y: auto;overflow-x:visible;">
+				<Table id="tbldata" style="table-layout:auto;overflow:visible;height:auto;margin-bottom: 15px;">
+				</Table>
+			</div>
+		</div>
+		<div id="divhdr">			
+			<div id="tablefooter" style="display:none;width:calc(100% - 30px);overflow:hidden;height:35px;padding-right:20px;">
+				<div class="collapse description" title="Click to toggle Query Details" id="hdrcolapse" style="visibility: visible;margin-top:0px;" onclick="hdrcolapse()">
+					<i class="fas fa-info-circle"></i>
+				</div>
+				<div id="tableopt" style="display:block;">
+					<input id="searchKey" placeholder="Search Table.." onkeyup="applyfilter()" />
+					<input type="button"  onclick="DownloadCSV()" value="Download" />
+				</div>
+				<span class="btn" id="next" style="float:right;" onclick="changepg(1)" >Next&nbsp;<i class="fas fa-caret-right"></i></span>
+				<span class="btn" id="prev" onclick="changepg(-1)" style="float:right;"><i class="fas fa-caret-left"></i>&nbsp;Prev</span>
+				<span class="description" id="pagingtext" style="float:right;">Showing 1 to 50 rows out of (top) 1200 rows</span>
+			</div>
+			<div id="querydetails" style="display:block;width:calc(100% - 40px);overflow: hidden;margin-left:20px;">				
+				<div id="qtxt" style="width:100%;float:left;">
+					<span class="description">Query :</span>
+					<div id="querytxt" class="hightext" style="margin-left:5px;"></div>
+				</div>
+				<div id="qstatus" style="float:left;width:100%;height:20px;">
+					<span id="hdrstat" class="description" style="float:left;">Status : Executing</span>
+					<span id="datastat" class="hightext" style="float:left;margin-left:5px"></span>
+					<div class="lds-ellipsis" style="display:block;float:left;margin-left:5px;" id="loadinganim"><div></div><div></div><div></div><div></div></div>
+				</div>
+				<div class="description" id="etxt" style="float:none;">
+					<span>Error :</span>
+					<div id="errortxt" class="errortext" style="margin-left:5px;">No Error</div>
+					<button id="expbtn" onclick="DownloadCSV()" style="margin:10px;font-size:18px;padding:5px;border:1px solid;display:none;" ><i class="fas fa-file-download"></i>&nbsp;Download</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

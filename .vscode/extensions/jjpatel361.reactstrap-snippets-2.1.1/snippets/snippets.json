@@ -1,0 +1,787 @@
+{
+    "alert-primary" : {
+        "prefix" : "alert:p",
+        "body" : [
+            "<Alert color=\"primary\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    },
+    "alert-secondary" : {
+        "prefix" : "alert:se",
+        "body" : [
+            "<Alert color=\"secondary\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    },
+    "alert-success" : {
+        "prefix" : "alert:su",
+        "body" : [
+            "<Alert color=\"success\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    },
+    "alert-danger" : {
+        "prefix" : "alert:dg",
+        "body" : [
+            "<Alert color=\"danger\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    },
+    "alert-warning" : {
+        "prefix" : "alert:w",
+        "body" : [
+            "<Alert color=\"warning\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    },
+    "alert-info" : {
+        "prefix" : "alert:i",
+        "body" : [
+            "<Alert color=\"info\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    },
+    "alert-light" : {
+        "prefix" : "alert:l",
+        "body" : [
+            "<Alert color=\"light\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    },
+    "alert-dark" : {
+        "prefix" : "alert:dk",
+        "body" : [
+            "<Alert color=\"dark\">",
+            "\t${1}",
+            "</Alert>"
+        ]
+    },
+    "badge-primary" : {
+        "prefix" : "badge:p",
+        "body" : [
+            "<Badge color=\"primary\">",
+            "\t${1}",
+            "</Badge>"
+        ]
+    },
+    "badge-secondary" : {
+        "prefix" : "badge:se",
+        "body" : [
+            "<Badge color=\"secondary\">",
+            "\t${1}",
+            "</Badge>"
+        ]
+    },
+    "badge-success" : {
+        "prefix" : "badge:su",
+        "body" : [
+            "<Badge color=\"success\">",
+            "\t${1}",
+            "</Badge>"
+        ]
+    },
+    "badge-danger" : {
+        "prefix" : "badge:dg",
+        "body" : [
+            "<Badge color=\"danger\">",
+            "\t${1}",
+            "</Badge>"
+        ]
+    },
+    "badge-warning" : {
+        "prefix" : "badge:w",
+        "body" : [
+            "<Badge color=\"warning\">",
+            "\t${1}",
+            "</Badge>"
+        ]
+    },
+    "badge-info" : {
+        "prefix" : "badge:i",
+        "body" : [
+            "<Badge color=\"info\">",
+            "\t${1}",
+            "</Badge>"
+        ]
+    },
+    "badge-light" : {
+        "prefix" : "badge:l",
+        "body" : [
+            "<Badge color=\"light\">",
+            "\t${1}",
+            "</Badge>"
+        ]
+    },
+    "badge-dark" : {
+        "prefix" : "badge:dk",
+        "body" : [
+            "<Badge color=\"dark\">",
+            "\t${1}",
+            "</Badge>"
+        ]
+    },
+    "btn-primary" : {
+        "prefix" : "btn:p",
+        "body" : [
+            "<Button color=\"primary\">",
+            "\t${1}",
+            "</Button>"
+        ]
+    },
+    "btn-secondary" : {
+        "prefix" : "btn:se",
+        "body" : [
+            "<Button color=\"secondary\">",
+            "\t${1}",
+            "</Button>"
+        ]
+    },
+    "btn-success" : {
+        "prefix" : "btn:su",
+        "body" : [
+            "<Button color=\"success\">",
+            "\t${1}",
+            "</Button>"
+        ]
+    },
+    "btn-danger" : {
+        "prefix" : "btn:dg",
+        "body" : [
+            "<Button color=\"danger\">",
+            "\t${1}",
+            "</Button>"
+        ]
+    },
+    "btn-warning" : {
+        "prefix" : "btn:w",
+        "body" : [
+            "<Button color=\"warning\">",
+            "\t${1}",
+            "</Button>"
+        ]
+    },
+    "btn-info" : {
+        "prefix" : "btn:i",
+        "body" : [
+            "<Button color=\"info\">",
+            "\t${1}",
+            "</Button>"
+        ]
+    },
+    "btn-light" : {
+        "prefix" : "btn:l",
+        "body" : [
+            "<Button color=\"light\">",
+            "\t${1}",
+            "</Button>"
+        ]
+    },
+    "btn-dark" : {
+        "prefix" : "btn:dk",
+        "body" : [
+            "<Button color=\"dark\">",
+            "\t${1}",
+            "</Button>"
+        ]
+    },    
+    "breadcrumb": {
+        "prefix" : "breadcrumb",
+        "body" : [
+            "<Breadcrumb>",
+            "\t${1}",
+            "</Breadcrumb>"
+        ]
+    },
+    "breadcrumbitem": {
+        "prefix" : "breadcrumbitem",
+        "body" : [
+            "<BreadcrumbItem>",
+            "\t${1}",
+            "</BreadcrumbItem>"
+        ]
+    }, 
+    "breadcrumbgroup" : {
+        "prefix" : "breadcrumb:item",
+        "body" : [
+            "<Breadcrumb>",
+            "\t<BreadcrumbItem>",
+            "\t\t${1}",
+            "\t</BreadcrumbItem>",
+            "</Breadcrumb>"
+        ]
+    },
+    "dropdown-button" : {
+        "prefix" : "dropdown:button",
+        "body" : [
+            "<ButtonDropdown>",
+            "\t${1}",
+            "</ButtonDropdown>"
+        ]
+    },
+    "dropdown-toggle" : {
+        "prefix" : "dropdown:toggle",
+        "body" : [
+            "<DropdownToggle>",
+            "\t${1}",
+            "</DropdownToggle>"
+        ]
+    },
+    "dropdown-menu" : {
+        "prefix" : "dropdown:menu",
+        "body" : [
+            "<DropdownMenu>",
+            "\t${1}",
+            "</DropdownMenu>"
+        ]
+    },
+    "dropdown-item" : {
+        "prefix" : "dropdown:item",
+        "body" :[
+            "<DropdownItem>",
+            "\t${1}",
+            "</DropdownItem>"
+        ]
+    },
+    "btn:group" : {
+        "prefix" : "btn:group",
+        "body" :[
+            "<ButtonGroup>",
+            "\t${1}",
+            "</ButtonGroup>"
+        ]
+    },
+    "btn:group:button" : {
+        "prefix" : "btn:group:btn",
+        "body" :[
+            "<ButtonGroup>",
+            "\t<Button>${1}</Button>",
+            "</ButtonGroup>"
+        ]
+    },
+    "btn:toolbar" : {
+        "prefix" : "btn:tool",
+        "body" :[
+            "<ButtonToolbar>",
+            "\t${1}",
+            "</ButtonToolbar>"
+        ]
+    },
+    "btn:toolbar:group" : {
+        "prefix" : "btn:toolgroup",
+        "body" :[
+            "<ButtonToolbar>",
+            "\t<ButtonGroup>",
+            "\t\t<Button>${1}</Button>",
+            "\t</ButtonGroup>",
+            "</ButtonToolbar>"
+        ]
+    },
+    "card" : {
+        "prefix" : "card",
+        "body" :[
+            "<Card>",
+            "\t${1}",
+            "</Card>"
+        ]
+    },
+    "card:img" : {
+        "prefix" : "card:img",
+        "body" :[
+            "<CardImg src=\"${1}\" alt=\"${2}\" />"
+        ]
+    },
+    "card:body" : {
+        "prefix" : "card:body",
+        "body" :[
+            "<CardBody>",
+            "\t${1}",
+            "</CardBody>"
+        ]
+    },
+    "card:title" : {
+        "prefix" : "card:title",
+        "body" :[
+            "<CardTitle>",
+            "\t${1}",
+            "</CardTitle>"
+        ]
+    },
+    "card:subtitle" : {
+        "prefix" : "card:subtitle",
+        "body" :[
+            "<CardSubtitle>",
+            "\t${1}",
+            "</CardSubtitle>"
+        ]
+    },
+    "card:text" : {
+        "prefix" : "card:text",
+        "body" :[
+            "<CardText>",
+            "\t${1}",
+            "</CardText>"
+        ]
+    },
+    "card:link" : {
+        "prefix" : "card:link",
+        "body" :[
+            "<CardLink>",
+            "\t${1}",
+            "</CardLink>"
+        ]
+    },
+    "card:header" : {
+        "prefix" : "card:header",
+        "body" :[
+            "<CardHeader>",
+            "\t${1}",
+            "</CardHeader>"
+        ]
+    },
+    "card:footer" : {
+        "prefix" : "card:footer",
+        "body" :[
+            "<CardFooter>",
+            "\t${1}",
+            "</CardFooter>"
+        ]
+    },
+    "card:imgoverlay" : {
+        "prefix" : "card:imgoverlay",
+        "body" :[
+            "<CardImgOverlay>",
+            "\t${1}",
+            "</CardImgOverlay>"
+        ]
+    },
+    "card:group" : {
+        "prefix" : "card:group",
+        "body" :[
+            "<CardGroup>",
+            "\t${1}",
+            "</CardGroup>"
+        ]
+    },
+    "card:deck" : {
+        "prefix" : "card:deck",
+        "body" :[
+            "<CardDeck>",
+            "\t${1}",
+            "</CardDeck>"
+        ]
+    },
+    "collapse" : {
+        "prefix" : "collapse",
+        "body" :[
+            "<Collapse isOpen=\"${1}\">",
+            "\t${2}",
+            "</Collapse>"
+        ]
+    },
+    "carousel" : {
+        "prefix" : "carousel",
+        "body" :[
+            "<Carousel>",
+            "\t${1}",
+            "</Carousel>"
+        ]
+    },
+    "carouselitem" : {
+        "prefix" : "carousel:item",
+        "body" :[
+            "<CarouselItem>",
+            "\t${1}",
+            "</CarouselItem>"
+        ]
+    },
+    "carouselcontrol" : {
+        "prefix" : "carousel:control",
+        "body" :[
+            "<CarouselControl>",
+            "\t${1}",
+            "</CarouselControl>"
+        ]
+    },
+    "carouselindicators" : {
+        "prefix" : "carousel:indicators",
+        "body" :[
+            "<CarouselIndicators>",
+            "\t${1}",
+            "</CarouselIndicators>"
+        ]
+    },
+    "carouselcaption" : {
+        "prefix" : "carousel:caption",
+        "body" :[
+            "<CarouselCaption>",
+            "\t${1}",
+            "</CarouselCaption>"
+        ]
+    },
+    "container" : {
+        "prefix" : "container",
+        "body" :[
+            "<Container>",
+            "\t${1}",
+            "</Container>"
+        ]
+    },
+    "row" : {
+        "prefix" : "row",
+        "body" :[
+            "<Row>",
+            "\t${1}",
+            "</Row>"
+        ]
+    },
+    "col" : {
+        "prefix" : "col",
+        "body" :[
+            "<Col ${1}>",
+            "\t${2}",
+            "</Col>"
+        ]
+    },
+    "col:md" : {
+        "prefix" : "col:md",
+        "body" :[
+            "<Col md=\"${1}\">",
+            "\t${2}",
+            "</Col>"
+        ]
+    },
+    "col:sm" : {
+        "prefix" : "col:sm",
+        "body" :[
+            "<Col sm=\"${1}\">",
+            "\t${2}",
+            "</Col>"
+        ]
+    },
+    "col:xs" : {
+        "prefix" : "col:xs",
+        "body" :[
+            "<Col xs=\"${1}\">",
+            "\t${2}",
+            "</Col>"
+        ]
+    },
+    "col:lg" : {
+        "prefix" : "col:lg",
+        "body" :[
+            "<Col lg=\"${1}\">",
+            "\t${2}",
+            "</Col>"
+        ]
+    },
+    "col:xl" : {
+        "prefix" : "col:xl",
+        "body" :[
+            "<Col xl=\"${1}\">",
+            "\t${2}",
+            "</Col>"
+        ]
+    },
+    "box" : {
+        "prefix" : "box",
+        "body" :[
+            "<Row>",
+            "\t<Col>",
+            "\t\t${1}",
+            "\t</Col>",
+            "</Row>"
+        ]
+    },
+    "table" : {
+        "prefix" : "table",
+        "body" :[
+            "<Table>",
+            "\t${1}",
+            "</Table>"
+        ]
+    },
+    "tabcontent" : {
+        "prefix" : "tabcontent",
+        "body" :[
+            "<TabContent>",
+            "\t${1}",
+            "</TabContent>"
+        ]
+    },
+    "tabpane" : {
+        "prefix" : "tabpane",
+        "body" :[
+            "<TabPane>",
+            "\t${1}",
+            "</TabPane>"
+        ]
+    },
+    "navitem" : {
+        "prefix" : "navitem",
+        "body" :[
+            "<NavItem>",
+            "\t${1}",
+            "</NavItem>"
+        ]
+    },
+    "nav" : {
+        "prefix" : "nav",
+        "body" :[
+            "<Nav>",
+            "\t${1}",
+            "</Nav>"
+        ]
+    },
+    "navlink" : {
+        "prefix" : "navlink",
+        "body" :[
+            "<NavLink>",
+            "\t${1}",
+            "</NavLink>"
+        ]
+    },
+    "navbar" : {
+        "prefix" : "navbar",
+        "body" :[
+            "<Navbar>",
+            "\t${1}",
+            "</Navbar>"
+        ]
+    },
+    "navbartoggler" : {
+        "prefix" : "navbartoggler",
+        "body" :[
+            "<NavbarToggler>",
+            "\t${1}",
+            "</NavbarToggler>"
+        ]
+    },
+    "navbarbrand" : {
+        "prefix" : "navbarbrand",
+        "body" :[
+            "<NavbarBrand>",
+            "\t${1}",
+            "</NavbarBrand>"
+        ]
+    },
+    "tooltip" : {
+        "prefix" : "tooltip",
+        "body" :[
+            "<Tooltip>",
+            "\t${1}",
+            "</Tooltip>"
+        ]
+    },
+    "progress" : {
+        "prefix" : "progress",
+        "body" :[
+            "<Progress>",
+            "\t${1}",
+            "</Progress>"
+        ]
+    },
+    "popover" : {
+        "prefix" : "popover",
+        "body" :[
+            "<Popover>",
+            "\t${1}",
+            "</Popover>"
+        ]
+    },
+    "popoverheader" : {
+        "prefix" : "popoverheader",
+        "body" :[
+            "<PopoverHeader>",
+            "\t${1}",
+            "</PopoverHeader>"
+        ]
+    },
+    "popoverbody" : {
+        "prefix" : "popoverbody",
+        "body" :[
+            "<PopoverBody>",
+            "\t${1}",
+            "</PopoverBody>"
+        ]
+    },
+    "popoverbox" : {
+        "prefix" : "popoverbox",
+        "body" :[
+            "<Popover>",
+            "\t<PopoverHeader>",
+            "\t\t${1}",
+            "\t</PopoverHeader>",
+            "\t<PopoverBody>",
+            "\t\t${2}",
+            "\t</PopoverBody>",
+            "</Popover>"
+        ]
+    },
+    "pagination" : {
+        "prefix" : "page",
+        "body" :[
+            "<Pagination>",
+            "\t${1}",
+            "</Pagination>"
+        ]
+    },
+    "paginationitem" : {
+        "prefix" : "page:i",
+        "body" :[
+            "<PaginationItem>",
+            "\t${1}",
+            "</PaginationItem>"
+        ]
+    },
+    "paginationlink" : {
+        "prefix" : "page:l",
+        "body" :[
+            "<PaginationLink>",
+            "\t${1}",
+            "</PaginationLink>"
+        ]
+    },
+    "fade" : {
+        "prefix" : "fade",
+        "body" :[
+            "<Fade in={${1}}>",
+            "\t${2}",
+            "</Fade>"
+        ]
+    },
+    "form" : {
+        "prefix" : "form",
+        "body" :[
+            "<Form>",
+            "\t${1}",
+            "</Form>"
+        ]
+    },
+    "formgroup" : {
+        "prefix" : "form:g",
+        "body" :[
+            "<FormGroup>",
+            "\t${1}",
+            "</FormGroup>"
+        ]
+    },
+    "input" : {
+        "prefix" : "input",
+        "body" :[
+            "<Input type=\"${1}\" id=\"${2}\" name=\"${2}\" placeholder=\"${3}\" />"
+        ]
+    },
+    "label" : {
+        "prefix" : "label",
+        "body" :[
+            "<Label for=\"${1}\" />"
+        ]
+    },
+    "inputbox" : {
+        "prefix" : "inputbox",
+        "body" :[
+            "<Label for=\"${1}\" />",
+            "<Input type=\"${2}\" id=\"${1}\" name=\"${1}\" placeholder=\"${3}\" />"
+        ]
+    },
+    "formbox" : {
+        "prefix" : "formbox",
+        "body" :[
+            "<FormGroup>",
+            "\t<Label for=\"${1}\" />",
+            "\t<Input type=\"${2}\" id=\"${1}\" name=\"${1}\" placeholder=\"${3}\" />",
+            "</FormGroup>"
+        ]
+    },
+    "listgroup" : {
+        "prefix" : "listgroup",
+        "body" :[
+            "<ListGroup>",
+            "\t${1}",
+            "</ListGroup>"
+        ]
+    },
+    "listgroupitem" : {
+        "prefix" : "listgroupitem",
+        "body" :[
+            "<ListGroupItem>",
+            "\t${1}",
+            "</ListGroupItem>"
+        ]
+    },
+    "listgroupitemheading" : {
+        "prefix" : "ListGroupItemHeading",
+        "body" :[
+            "<ListGroupItemHeading>",
+            "\t${1}",
+            "</ListGroupItemHeading>"
+        ]
+    },
+    "listgroupitemtext" : {
+        "prefix" : "ListGroupItemText",
+        "body" :[
+            "<ListGroupItemText>",
+            "\t${1}",
+            "</ListGroupItemText>"
+        ]
+    },
+    "listbox" : {
+        "prefix" : "listbox",
+        "body" :[
+            "<ListGroup>",
+            "\t<ListGroupItem>",
+            "\t\t${1}",
+            "\t</ListGroupItem>",
+            "</ListGroup>"
+        ]
+    },
+    "listitembox" : {
+        "prefix" : "listitembox",
+        "body" :[
+            "<ListGroupItemHeading>",
+            "\t<ListGroupItemText>",
+            "\t\t${1}",
+            "\t</ListGroupItemText>",
+            "</ListGroupItemHeading>"
+        ]
+    },
+    "jumbotron" : {
+        "prefix" : "jumbotron",
+        "body" :[
+            "<Jumbotron>",
+            "\t${1}",
+            "</Jumbotron>"
+        ]
+    },
+    "inputgroup" : {
+        "prefix" : "inputgroup",
+        "body" :[
+            "<InputGroup>",
+            "\t${1}",
+            "</InputGroup>"
+        ]
+    },
+    "inputgroupaddon" : {
+        "prefix" : "inputgroupaddon",
+        "body" :[
+            "<InputGroupAddon addonType=\"${1}\">",
+            "\t${2}",
+            "</InputGroupAddon>"
+        ]
+    },
+    "inputgrouptext" : {
+        "prefix" : "inputgrouptext",
+        "body" :[
+            "<InputGroupText>",
+            "\t${1}",
+            "</InputGroupText>"
+        ]
+    }
+}

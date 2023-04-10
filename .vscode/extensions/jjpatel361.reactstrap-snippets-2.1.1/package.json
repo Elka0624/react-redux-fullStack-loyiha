@@ -1,0 +1,62 @@
+{
+	"name": "reactstrap-snippets",
+	"displayName": "reactstrap-snippets",
+	"description": "Snippets for using ReactStrap (React Bootstrap 4 Components)",
+	"version": "2.1.1",
+	"icon": "images/react.png",
+	"publisher": "jjpatel361",
+	"keywords": [
+		"reactstrap",
+		"snippets",
+		"bootstrap"
+	],
+	"engines": {
+		"vscode": "^1.21.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescript",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "typescriptreact",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"dependencies": {
+		"vsce": "^1.37.6"
+	},
+	"galleryBanner": {
+		"color": "#000",
+		"theme": "dark"
+	},
+	"homepage": "https://github.com/jjpatel361/vscode-reactstrap-snippets/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jjpatel361/vscode-reactstrap-snippets.git"
+	},
+	"__metadata": {
+		"id": "577526d1-44f2-478e-9450-8e121f824bd4",
+		"publisherId": "43bb7333-e8b9-4b8c-a1b7-0cc3ab58f123",
+		"publisherDisplayName": "Jay Patel",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1679910064082
+	}
+}

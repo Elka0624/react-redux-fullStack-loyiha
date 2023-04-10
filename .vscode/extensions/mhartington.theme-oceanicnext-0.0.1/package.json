@@ -1,0 +1,28 @@
+{
+	"name": "theme-oceanicnext",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+	"publisher": "mhartington",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mhartington/vscode-oceanicnext"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Oceanic Next",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Oceanic%20Next.tmTheme"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "09d30704-01fd-40b1-b116-781607a3ec4f",
+		"publisherId": "ff28127a-887c-4f8f-8e3c-de62c8258ac5",
+		"publisherDisplayName": "Mike Hartington",
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1642224210662
+	}
+}

@@ -1,0 +1,24 @@
+{
+    "commentbreak":false
+    ,"newlinebreak":true
+    ,"multilinebreak":true
+    ,"mssql.connections": [
+        {
+            "server": "hc4w01253.itcs.hpecorp.net",
+            "database": "HiveSchemaITG",
+            "authenticationType": "Integrated",
+            "profileName": "HiveITG",
+            "password": ""
+        },
+        {
+            "server": "hc4w01253.itcs.hpecorp.net",
+            "database": "HiveSchemaPVT",
+            "authenticationType": "Integrated",
+            "profileName": "HivePVT",
+            "password": ""
+        }
+    ],
+	"extensionDependencies": [
+		"mssql.sql"
+	]
+}
