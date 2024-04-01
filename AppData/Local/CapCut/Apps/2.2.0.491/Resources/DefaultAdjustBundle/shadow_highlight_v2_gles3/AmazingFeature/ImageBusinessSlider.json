@@ -1,0 +1,97 @@
+{
+	"ImageBusinessSlider" : 
+	{
+		"LV" : 
+		{
+			"horizontal_chromatic" : 
+			{
+				"materialValue" : 
+				{
+					"9173421521154082086,9934215586801836706" : 
+					{
+						"sf2" : 
+						{
+							"entityName" : "cameraAdjust",
+							"maxValue" : 1.0,
+							"minValue" : -1.0
+						}
+					}
+				},
+				"sliderIntensity" : 50.0
+			},
+			"horizontal_shift" : 
+			{
+				"materialValue" : 
+				{
+					"9173421521154082086,9934215586801836706" : 
+					{
+						"sf1" : 
+						{
+							"entityName" : "cameraAdjust",
+							"maxValue" : 1.0,
+							"minValue" : -1.0
+						}
+					}
+				},
+				"sliderIntensity" : 50.0
+			},
+			"intensity" : 
+			{
+				"materialValue" : 
+				{
+					"9173421521154082086,9934215586801836706" : 
+					{
+						"shadow" : 
+						{
+							"entityName" : "cameraAdjust",
+							"maxValue" : 100.0,
+							"minValue" : -100.0
+						}
+					}
+				},
+				"sliderIntensity" : 50.0
+			},
+			"luminance" : 
+			{
+				"materialValue" : 
+				{
+					"9173421521154082086,9934215586801836706" : null
+				},
+				"sliderIntensity" : 53.400001525878906
+			},
+			"size" : 
+			{
+				"materialValue" : 
+				{
+					"9173421521154082086,9934215586801836706" : 
+					{
+						"contrast" : 
+						{
+							"entityName" : "cameraAdjust",
+							"maxValue" : 2.0,
+							"minValue" : 0.0
+						}
+					}
+				},
+				"sliderIntensity" : 49.659999847412109
+			},
+			"vertical_shift" : 
+			{
+				"materialValue" : 
+				{
+					"9173421521154082086,9934215586801836706" : 
+					{
+						"lf" : 
+						{
+							"entityName" : "cameraAdjust",
+							"maxValue" : 1.0,
+							"minValue" : -1.0
+						}
+					}
+				},
+				"sliderIntensity" : 50.0
+			}
+		},
+		"retouch" : null
+	}
+}

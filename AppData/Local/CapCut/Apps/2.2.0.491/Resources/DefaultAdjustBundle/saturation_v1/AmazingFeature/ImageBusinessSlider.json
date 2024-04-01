@@ -1,0 +1,24 @@
+{
+	"ImageBusinessSlider" : 
+	{
+		"LV" : 
+		{
+			"intensity" : 
+			{
+				"materialValue" : 
+				{
+					"11911869228289910622,1473556791677241760" : 
+					{
+						"sat" : 
+						{
+							"entityName" : "Sat",
+							"maxValue" : 100.0,
+							"minValue" : 0.0
+						}
+					}
+				},
+				"sliderIntensity" : 50.0
+			}
+		}
+	}
+}

@@ -1,3 +1,7 @@
 [user]
 	name = Elyor
 	email = ilhomovelyor20010624@gmail.com
+[color]
+	ui = always
+[color "status"]
+	added = green

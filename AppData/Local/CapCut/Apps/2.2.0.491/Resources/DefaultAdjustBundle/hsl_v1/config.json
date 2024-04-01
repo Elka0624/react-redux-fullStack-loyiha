@@ -1,0 +1,14 @@
+{
+    "effect": {
+        "Link": [
+            {
+                "path": "HSL/",
+                "type": "AmazingFeature",
+                "zorder": 10010
+            }
+        ],
+        "exclusiveScene": []
+    },
+    "name": "2021_04_14_16_32_48_86d025b011ea978facde48001122",
+    "version": "6.4.0"
+}

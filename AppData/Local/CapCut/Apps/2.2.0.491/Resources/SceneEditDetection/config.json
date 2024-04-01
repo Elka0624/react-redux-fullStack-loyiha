@@ -1,0 +1,47 @@
+{
+    "version": "1.0",
+    "mode": 2,
+    "nodes": [
+{
+"name": "input_0",
+        "type": "blit"
+},
+{
+"name": "input_1",
+    "type": "array_buffer_producer"
+},
+{
+"name": "compress_shot_detect_0",
+        "type": "compress_shot_detect",
+        "config": {
+    "keymaps": {
+        "intParam": {
+            "compress_shot_detect_sliding_window_size": 11
+        },
+        "floatParam": {
+            "compress_shot_detect_post_process_threshold": 0.35
+        },
+        "stringParam": {
+            "compress_shot_detect_backbone_model_name": "jy_compressShotDetectBackbone",
+            "compress_shot_detect_predhead_model_name": "jy_compressShotDetectPredHead",
+            "compress_shot_detect_debug_data_save_path": ""
+        }
+    }
+}
+}
+],
+"links": [
+{
+"fromNode": "input_0",
+        "fromIndex": 0,
+        "toNode": "compress_shot_detect_0",
+        "toIndex": 0
+},
+{
+"fromNode": "input_1",
+        "fromIndex": 0,
+        "toNode": "compress_shot_detect_0",
+        "toIndex": 1
+}
+]
+}

@@ -1,0 +1,33 @@
+{
+    "content": {},
+    "requirement": {
+        "2handDetect": false,
+        "2handDetectKeyPoint": false,
+        "3dFaceMeshPerspective": false,
+        "FaceAttributes": false,
+        "ageDetect": false,
+        "animoji": false,
+        "catFaceDetect": false,
+        "expressionDetect": false,
+        "faceDetect": false,
+        "faceDetect240": false,
+        "faceDetect280": false,
+        "faceDetectDu": false,
+        "faceSeg": false,
+        "faceVerify": false,
+        "foot": false,
+        "genderDetect": false,
+        "hairColor": false,
+        "handDetect": false,
+        "handDetectKeyPoint": false,
+        "handDetectKeyPoint3D": false,
+        "handDetectLeftRight": false,
+        "handSegment": false,
+        "headSeg": false,
+        "matting": false,
+        "mouthSeg": false,
+        "skeletonDetect": false
+    },
+    "tag": "AMG_499094b3a78e940a5927269aa48dbe9fc31a4c",
+    "version": "1.0"
+}

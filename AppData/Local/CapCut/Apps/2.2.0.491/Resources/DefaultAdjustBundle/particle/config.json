@@ -1,0 +1,13 @@
+{
+    "effect": {
+        "Link": [
+            {
+                "path": "amazingfeature/",
+                "type": "AmazingFeature",
+                "zorder": 10000
+            }
+        ]
+    },
+    "name": "particle",
+    "version": "6.6.0"
+}
