@@ -1,0 +1,16 @@
+{
+    "requirement" :
+    {
+        "3dFaceMeshPerspective" : false,
+        "FaceAttributes" : false,
+        "faceDetect" : false,
+        "faceVerify" : false,
+        "hairColor" : false,
+        "handDetect" : false,
+        "matting" : false
+    },
+    "content": {
+    },
+    "tag" : "GESticker_screen_shake_20191127_165253",
+    "version" : "1.0"
+}

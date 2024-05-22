@@ -1,0 +1,21 @@
+{
+    "effect_id": "3170457",
+    "file_url": {
+        "uri": "b1c6f6201f7726196688b12d27ef5544",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/b1c6f6201f7726196688b12d27ef5544",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/b1c6f6201f7726196688b12d27ef5544",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/b1c6f6201f7726196688b12d27ef5544",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/b1c6f6201f7726196688b12d27ef5544"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face\",\"tt_fsnew_base_jianying\",\"tt_freid\",\"tt_face_extra\"]}",
+    "name": "Ширина",
+    "panel": "",
+    "requirements": [
+        "face",
+        "freid",
+        "blit"
+    ],
+    "resource_id": "7019182100469256705"
+}

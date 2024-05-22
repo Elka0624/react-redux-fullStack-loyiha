@@ -1,0 +1,1 @@
+/anim.prefab,/config.json,/content.json,/effect_platform_children.tag,/extra.json,/gles2_bvcwvg.vert,/gles2_yvsong.frag,/kiss.png,/kiss.png.meta,/Sprite2D.material,/Sprite2D.xshader,/TextAnim.lua

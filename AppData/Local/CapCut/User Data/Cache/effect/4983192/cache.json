@@ -1,0 +1,21 @@
+{
+    "effect_id": "4983192",
+    "file_url": {
+        "uri": "45b24b0e48bea03413fdfd9069b6c251",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/45b24b0e48bea03413fdfd9069b6c251",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/45b24b0e48bea03413fdfd9069b6c251",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/45b24b0e48bea03413fdfd9069b6c251",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/45b24b0e48bea03413fdfd9069b6c251"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "Калифорнийский закат",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "freid"
+    ],
+    "resource_id": "7158739773593489921"
+}

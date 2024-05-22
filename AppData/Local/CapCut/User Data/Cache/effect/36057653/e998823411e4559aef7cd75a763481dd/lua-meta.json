@@ -1,0 +1,546 @@
+[
+    {
+        "ClassName": "TextAnim",
+        "Super": "ScriptComponent",
+        "FilePath": "TextAnim.lua",
+        "FileAbsPath": "/Users/bytedance/Desktop/d45612a7697cc6d9cb680228e501ae8e/TextAnim.lua",
+        "Properties": [
+            {
+                "VarName": "effectMaterial",
+                "VarType": "Material",
+                "Comment": ""
+            },
+            {
+                "VarName": "effectMaterial1",
+                "VarType": "Material",
+                "Comment": ""
+            },
+            {
+                "VarName": "quad",
+                "VarType": "Mesh",
+                "Comment": ""
+            },
+            {
+                "VarName": "alphaStart",
+                "VarType": "Double",
+                "Comment": ""
+            },
+            {
+                "VarName": "alphaEnd",
+                "VarType": "Double",
+                "Comment": ""
+            },
+            {
+                "VarName": "alphaOffset",
+                "VarType": "Double",
+                "Comment": ""
+            },
+            {
+                "VarName": "duration",
+                "VarType": "Double",
+                "Comment": ""
+            },
+            {
+                "VarName": "progress",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Slider",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "autoPlay",
+                "VarType": "Bool",
+                "Comment": ""
+            },
+            {
+                "VarName": "sharedMaterial1",
+                "VarType": "Material",
+                "Comment": ""
+            },
+            {
+                "VarName": "sharedMaterial2",
+                "VarType": "Material",
+                "Comment": ""
+            },
+            {
+                "VarName": "sharedMaterial3",
+                "VarType": "Material",
+                "Comment": ""
+            },
+            {
+                "VarName": "sharedMaterial4",
+                "VarType": "Material",
+                "Comment": ""
+            },
+            {
+                "VarName": "sharedMaterial5",
+                "VarType": "Material",
+                "Comment": ""
+            },
+            {
+                "VarName": "sharedMaterial6",
+                "VarType": "Material",
+                "Comment": ""
+            },
+            {
+                "VarName": "sharedMaterial7",
+                "VarType": "Material",
+                "Comment": ""
+            },
+            {
+                "VarName": "sharedMaterial8",
+                "VarType": "Material",
+                "Comment": ""
+            },
+            {
+                "VarName": "sharedMaterial9",
+                "VarType": "Material",
+                "Comment": ""
+            },
+            {
+                "VarName": "sharedMaterial10",
+                "VarType": "Material",
+                "Comment": ""
+            },
+            {
+                "VarName": "renderToRT",
+                "VarType": "Bool",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "_remap01",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "_cubicBezier",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "_cubicBezier01",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "_getBezier01X",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "_mix",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "GetVal",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "test",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "Util",
+        "Super": "",
+        "FilePath": "TextAnim.lua",
+        "FileAbsPath": "/Users/bytedance/Desktop/d45612a7697cc6d9cb680228e501ae8e/TextAnim.lua",
+        "Properties": [],
+        "Methods": [
+            {
+                "FuncName": "registerParams",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "getRegistedParams",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "setRegistedVal",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "getRootDir",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "registerRootDir",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "bezier",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "remap01",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "mix",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "CreateJsonFile",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "ReadFromJson",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "bezierWithParams",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "clamp",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "test",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "constructor",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onSetProperty",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "ReadFromJson",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "transInitial",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "initMaterial",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "setMatToSDFText",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "updatematerial",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "initAnimConfig",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "addEffectLayers",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "addEntity",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "getLayer",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "getTextColor",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "getTextFontSize",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "updateScale",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "getWordInfo",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "getWordIndex",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "showChar",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "seek",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "updateAnim",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "updateAplha",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onEnter",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "resetData",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "setDuration",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onLeave",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "clear",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "TextScript",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/Deep_Glow/Lua/TextScript.lua",
+        "FileAbsPath": "/Users/bytedance/Desktop/d45612a7697cc6d9cb680228e501ae8e/effects/Deep_Glow/Lua/TextScript.lua",
+        "Properties": [
+            {
+                "VarName": "glow_intensity",
+                "VarType": "Double",
+                "Comment": ""
+            },
+            {
+                "VarName": "radius",
+                "VarType": "Double",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "deltaTime",
+                        "ParaType": "Double",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onEvent",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "event",
+                        "ParaType": "Event",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "GlowBlurLayerScript",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/Deep_Glow/Lua/GlowBlurLayerScript.lua",
+        "FileAbsPath": "/Users/bytedance/Desktop/d45612a7697cc6d9cb680228e501ae8e/effects/Deep_Glow/Lua/GlowBlurLayerScript.lua",
+        "Properties": [
+            {
+                "VarName": "Intensity",
+                "VarType": "Double",
+                "Comment": ""
+            },
+            {
+                "VarName": "Blurred_Direction",
+                "VarType": "string[UI(Option={\"Horizontal",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Option",
+                                "RawValue": "",
+                                "Values": [
+                                    "Horizontal and Vertical",
+                                    "Horizontal",
+                                    "Vertical"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "deltaTime",
+                        "ParaType": "Double",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onEvent",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "event",
+                        "ParaType": "Event",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    }
+]

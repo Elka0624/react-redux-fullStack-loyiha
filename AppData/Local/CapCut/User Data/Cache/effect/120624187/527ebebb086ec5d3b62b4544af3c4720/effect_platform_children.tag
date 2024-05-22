@@ -1,0 +1,1 @@
+/config.json,/heycanInfo.json,/infoSticker.lua,/singleImage.png

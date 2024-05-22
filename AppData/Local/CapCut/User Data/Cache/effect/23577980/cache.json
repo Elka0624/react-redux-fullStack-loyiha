@@ -1,0 +1,19 @@
+{
+    "effect_id": "23577980",
+    "file_url": {
+        "uri": "c863f3afe0d73cccc19188d6313b1dae",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/c863f3afe0d73cccc19188d6313b1dae",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/c863f3afe0d73cccc19188d6313b1dae",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/c863f3afe0d73cccc19188d6313b1dae",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/c863f3afe0d73cccc19188d6313b1dae"
+        ]
+    },
+    "model_names": "",
+    "name": "Перелистывание",
+    "panel": "",
+    "requirements": [
+        "blit"
+    ],
+    "resource_id": "7221379732166676993"
+}

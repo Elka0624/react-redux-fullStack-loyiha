@@ -1,0 +1,22 @@
+{
+    "effect_id": "3080414",
+    "file_url": {
+        "uri": "7622e579af947edadd9a1d0e7d89d98d",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/7622e579af947edadd9a1d0e7d89d98d",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/7622e579af947edadd9a1d0e7d89d98d",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/7622e579af947edadd9a1d0e7d89d98d",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/7622e579af947edadd9a1d0e7d89d98d"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_freid\",\"tt_fsnew_base_jianying\"]}",
+    "name": "Морщинки от улыбки",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "freid",
+        "faceDetect"
+    ],
+    "resource_id": "7130176030764962305"
+}

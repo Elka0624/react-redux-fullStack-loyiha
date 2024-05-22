@@ -1,0 +1,22 @@
+{
+    "effect_id": "4707741",
+    "file_url": {
+        "uri": "c3bf77796e1e2694307bd63881544b06",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/c3bf77796e1e2694307bd63881544b06",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/c3bf77796e1e2694307bd63881544b06",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/c3bf77796e1e2694307bd63881544b06",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/c3bf77796e1e2694307bd63881544b06"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_facefitting1256\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "Естественные веснушки",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "face_fitting",
+        "freid"
+    ],
+    "resource_id": "7158739772788183554"
+}

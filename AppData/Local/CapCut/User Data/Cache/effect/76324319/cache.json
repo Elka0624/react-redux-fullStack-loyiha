@@ -1,0 +1,21 @@
+{
+    "effect_id": "76324319",
+    "file_url": {
+        "uri": "1ab8b7f9eff148273a4ce92d3fe76872",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/1ab8b7f9eff148273a4ce92d3fe76872",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/1ab8b7f9eff148273a4ce92d3fe76872",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/1ab8b7f9eff148273a4ce92d3fe76872",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/1ab8b7f9eff148273a4ce92d3fe76872"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "Сладкий кипяток",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "freid"
+    ],
+    "resource_id": "7273744481776570881"
+}

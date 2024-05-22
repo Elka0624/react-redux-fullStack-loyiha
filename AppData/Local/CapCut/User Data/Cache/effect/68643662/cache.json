@@ -1,0 +1,21 @@
+{
+    "effect_id": "68643662",
+    "file_url": {
+        "uri": "d80b7dba906aa46534e2dcf9d9fcc5ea",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/d80b7dba906aa46534e2dcf9d9fcc5ea",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/d80b7dba906aa46534e2dcf9d9fcc5ea",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/d80b7dba906aa46534e2dcf9d9fcc5ea",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/d80b7dba906aa46534e2dcf9d9fcc5ea"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "Летний персик",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "freid"
+    ],
+    "resource_id": "7268598342005821953"
+}

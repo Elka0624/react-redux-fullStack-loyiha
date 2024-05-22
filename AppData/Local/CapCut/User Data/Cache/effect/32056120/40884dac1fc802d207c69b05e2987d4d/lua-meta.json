@@ -1,0 +1,451 @@
+[
+    {
+        "ClassName": "TextAnim",
+        "Super": "ScriptComponent",
+        "FilePath": "TextAnim.lua",
+        "FileAbsPath": "/Users/bytedance/Downloads/3a6e064909f8d07cf54f9f62c0cd4c78 (1)/TextAnim.lua",
+        "Properties": [
+            {
+                "VarName": "effectMaterial",
+                "VarType": "Material",
+                "Comment": ""
+            },
+            {
+                "VarName": "quad",
+                "VarType": "Mesh",
+                "Comment": ""
+            },
+            {
+                "VarName": "alphaStart",
+                "VarType": "Double",
+                "Comment": ""
+            },
+            {
+                "VarName": "alphaEnd",
+                "VarType": "Double",
+                "Comment": ""
+            },
+            {
+                "VarName": "alphaOffset",
+                "VarType": "Double",
+                "Comment": ""
+            },
+            {
+                "VarName": "duration",
+                "VarType": "Double",
+                "Comment": ""
+            },
+            {
+                "VarName": "progress",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    0.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Slider",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "autoPlay",
+                "VarType": "Bool",
+                "Comment": ""
+            },
+            {
+                "VarName": "sharedMaterial",
+                "VarType": "Material",
+                "Comment": ""
+            },
+            {
+                "VarName": "renderToRT",
+                "VarType": "Bool",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "_remap01",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "_cubicBezier",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "_cubicBezier01",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "_getBezier01X",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "_mix",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "GetVal",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "test",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "Util",
+        "Super": "",
+        "FilePath": "TextAnim.lua",
+        "FileAbsPath": "/Users/bytedance/Downloads/3a6e064909f8d07cf54f9f62c0cd4c78 (1)/TextAnim.lua",
+        "Properties": [],
+        "Methods": [
+            {
+                "FuncName": "registerParams",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "getRegistedParams",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "setRegistedVal",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "getRootDir",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "registerRootDir",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "bezier",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "remap01",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "mix",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "CreateJsonFile",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "ReadFromJson",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "bezierWithParams",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "clamp",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "test",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "constructor",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onSetProperty",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "ReadFromJson",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "transInitial",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "setMatToSDFText",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "initAnimConfig",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "getTextColor",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "getTextFontSize",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "seek",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "getTextAlpha",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "updateAnim",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onEnter",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "resetData",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "setDuration",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onLeave",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "clear",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "TextScript",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/Deep_Glow/Lua/TextScript.lua",
+        "FileAbsPath": "/Users/bytedance/Downloads/3a6e064909f8d07cf54f9f62c0cd4c78 (1)/effects/Deep_Glow/Lua/TextScript.lua",
+        "Properties": [
+            {
+                "VarName": "glow_intensity",
+                "VarType": "Double",
+                "Comment": ""
+            },
+            {
+                "VarName": "radius",
+                "VarType": "Double",
+                "Comment": ""
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "deltaTime",
+                        "ParaType": "Double",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onEvent",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "event",
+                        "ParaType": "Event",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    },
+    {
+        "ClassName": "GlowBlurLayerScript",
+        "Super": "ScriptComponent",
+        "FilePath": "effects/Deep_Glow/Lua/GlowBlurLayerScript.lua",
+        "FileAbsPath": "/Users/bytedance/Downloads/3a6e064909f8d07cf54f9f62c0cd4c78 (1)/effects/Deep_Glow/Lua/GlowBlurLayerScript.lua",
+        "Properties": [
+            {
+                "VarName": "Intensity",
+                "VarType": "Double",
+                "Comment": ""
+            },
+            {
+                "VarName": "Blurred_Direction",
+                "VarType": "string[UI(Option={\"Horizontal",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Option",
+                                "RawValue": "",
+                                "Values": [
+                                    "Horizontal and Vertical",
+                                    "Horizontal",
+                                    "Vertical"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "deltaTime",
+                        "ParaType": "Double",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onEvent",
+                "Params": [
+                    {
+                        "ParaName": "comp",
+                        "ParaType": "Component",
+                        "Comment": ""
+                    },
+                    {
+                        "ParaName": "event",
+                        "ParaType": "Event",
+                        "Comment": ""
+                    }
+                ],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    }
+]

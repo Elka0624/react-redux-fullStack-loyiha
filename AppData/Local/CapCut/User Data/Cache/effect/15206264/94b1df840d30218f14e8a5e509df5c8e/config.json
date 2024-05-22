@@ -1,0 +1,13 @@
+{
+    "effect": {
+        "Link": [
+            {
+                "type": "AmazingFeature",
+                "zorder": 10000,
+                "path": "amazingfeature/"
+            }
+        ]
+    },
+    "name": "GESticker_black_to_white_gradual_open_201908131423",
+    "version": "6.6.0"
+}

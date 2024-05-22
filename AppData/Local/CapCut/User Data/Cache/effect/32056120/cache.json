@@ -1,0 +1,19 @@
+{
+    "effect_id": "32056120",
+    "file_url": {
+        "uri": "40884dac1fc802d207c69b05e2987d4d",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/40884dac1fc802d207c69b05e2987d4d",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/40884dac1fc802d207c69b05e2987d4d",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/40884dac1fc802d207c69b05e2987d4d",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/40884dac1fc802d207c69b05e2987d4d"
+        ]
+    },
+    "model_names": "",
+    "name": "След",
+    "panel": "",
+    "requirements": [
+        "blit"
+    ],
+    "resource_id": "7231492571321602562"
+}

@@ -1,0 +1,19 @@
+{
+    "effect_id": "20797838",
+    "file_url": {
+        "uri": "c286704b1a7e9423a19ba8365771476b",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/c286704b1a7e9423a19ba8365771476b",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/c286704b1a7e9423a19ba8365771476b",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/c286704b1a7e9423a19ba8365771476b",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/c286704b1a7e9423a19ba8365771476b"
+        ]
+    },
+    "model_names": "",
+    "name": "Яркость II",
+    "panel": "",
+    "requirements": [
+        "blit"
+    ],
+    "resource_id": "7216239430833541633"
+}

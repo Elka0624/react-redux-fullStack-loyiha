@@ -1,0 +1,23 @@
+{
+    "effect_id": "4243126",
+    "file_url": {
+        "uri": "de330e0711817ed71cb099e0f4a6d13b",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/de330e0711817ed71cb099e0f4a6d13b",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/de330e0711817ed71cb099e0f4a6d13b",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/de330e0711817ed71cb099e0f4a6d13b",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/de330e0711817ed71cb099e0f4a6d13b"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face\",\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_skin_seg\"]}",
+    "name": "Теплая слоновая кость",
+    "panel": "",
+    "requirements": [
+        "face",
+        "skin_seg",
+        "blit",
+        "faceDetect",
+        "skinseg"
+    ],
+    "resource_id": "7153611099227558402"
+}

@@ -1,0 +1,92 @@
+%YAML 1.1
+--- !XShader &1
+name: ReshapeV5_singlePerson
+guid: {a: 4632165620799119086, b: 16374244938494319506}
+properties:
+  __class: PropertySheet
+  name: ""
+  guid: {a: 9169549162588889387, b: 12027544400825023649}
+  floatmap:
+    __class: Map
+  vec4map:
+    __class: Map
+  vec3map:
+    __class: Map
+  vec2map:
+    __class: Map
+  mat4map:
+    __class: Map
+  texmap:
+    __class: Map
+  intmap:
+    __class: Map
+renderQueue: 2000
+passes:
+  - __class: Pass
+    name: ""
+    guid: {a: 10035567295737709266, b: 6569453348104834480}
+    shaders:
+      __class: Map
+      gles2:
+        - {localId: 2}
+        - {localId: 3}
+    angleBinaryPrograms:
+      __class: Map
+    semantics:
+      __class: Map
+      attPosition:
+        __class: VertexAttribType
+        value: POSITION
+      attUV:
+        __class: VertexAttribType
+        value: TEXCOORD0
+    clearColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    clearDepth: 1
+    clearType:
+      __class: CameraClearType
+      value: DONT
+    renderState:
+      __class: RenderState
+      name: ""
+      guid: {a: 9028094172818226562, b: 10318085600819719058}
+      depthstencil:
+        __class: DepthStencilState
+        name: ""
+        guid: {a: 5927489076970897488, b: 3544864297733495200}
+        depthTestEnable: false
+        depthTestEnableName: ""
+        depthCompareOp:
+          __class: CompareOp
+          value: LESS
+        depthCompareOpName: ""
+        depthWriteEnable: false
+        stencilTestEnable: false
+        stencilTestEnableName: ""
+    useFBOTexture: false
+    useCameraRT: false
+    useFBOFetch: false
+    enableFBOFetch: false
+    isFullScreenShading: true
+    macrosMap:
+      __class: Map
+    preprocess: false
+    passType:
+      __class: PassType
+      value: NORMAL
+    lightMode:
+      __class: LightMode
+      value: NONE
+--- !Shader &2
+name: ""
+guid: {a: 8954136770448264939, b: 16005585873750960525}
+type:
+  __class: ShaderType
+  value: VERTEX
+sourcePath: xshader/fdx.vert
+--- !Shader &3
+name: ""
+guid: {a: 6289858485830859168, b: 12037536265393122200}
+type:
+  __class: ShaderType
+  value: FRAGMENT
+sourcePath: xshader/reshapeV5_single.frag

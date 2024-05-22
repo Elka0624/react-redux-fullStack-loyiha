@@ -1,0 +1,13 @@
+{
+    "effect": {
+        "Link": [
+            {
+                "type": "AmazingFeature",
+                "zorder": 10000,
+                "path": "amazingfeature/"
+            }
+        ]
+    },
+    "name": "ad1120bgsdgnyu3c959b743b01",
+    "version": "6.6.0"
+}

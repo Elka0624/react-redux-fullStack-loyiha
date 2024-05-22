@@ -1,0 +1,23 @@
+{
+    "effect_id": "4232854",
+    "file_url": {
+        "uri": "df956ae3455a2ce9fe4492126e174698",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/df956ae3455a2ce9fe4492126e174698",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/df956ae3455a2ce9fe4492126e174698",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/df956ae3455a2ce9fe4492126e174698",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/df956ae3455a2ce9fe4492126e174698"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face\",\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_skin_seg\"]}",
+    "name": "Грецкий орех",
+    "panel": "",
+    "requirements": [
+        "face",
+        "skin_seg",
+        "blit",
+        "faceDetect",
+        "skinseg"
+    ],
+    "resource_id": "7153495793419162113"
+}

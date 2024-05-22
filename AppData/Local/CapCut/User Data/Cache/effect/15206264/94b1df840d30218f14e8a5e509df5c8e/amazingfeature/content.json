@@ -1,0 +1,16 @@
+{
+    "requirement" :
+    {
+        "3dFaceMeshPerspective" : false,
+        "FaceAttributes" : false,
+        "faceDetect" : false,
+        "faceVerify" : false,
+        "hairColor" : false,
+        "handDetect" : false,
+        "matting" : false
+    },
+    "content": {
+    },
+    "tag" : "GESticker_black_to_white_gradual_open_201908131423",
+    "version" : "1.0"
+}

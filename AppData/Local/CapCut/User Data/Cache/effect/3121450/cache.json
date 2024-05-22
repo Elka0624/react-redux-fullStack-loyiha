@@ -1,0 +1,19 @@
+{
+    "effect_id": "3121450",
+    "file_url": {
+        "uri": "71b3b9d907f98236c13becdffdee2dbd",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/71b3b9d907f98236c13becdffdee2dbd",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/71b3b9d907f98236c13becdffdee2dbd",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/71b3b9d907f98236c13becdffdee2dbd",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/71b3b9d907f98236c13becdffdee2dbd"
+        ]
+    },
+    "model_names": "",
+    "name": "Чернильный отпечаток",
+    "panel": "",
+    "requirements": [
+        "blit"
+    ],
+    "resource_id": "7131933254872994306"
+}

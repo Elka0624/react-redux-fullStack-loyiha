@@ -1,0 +1,23 @@
+{
+    "effect_id": "4232856",
+    "file_url": {
+        "uri": "e25b249b36957f7a93630e76a2c6a958",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/e25b249b36957f7a93630e76a2c6a958",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/e25b249b36957f7a93630e76a2c6a958",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/e25b249b36957f7a93630e76a2c6a958",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/e25b249b36957f7a93630e76a2c6a958"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face\",\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_skin_seg\"]}",
+    "name": "Теплый мед",
+    "panel": "",
+    "requirements": [
+        "face",
+        "skin_seg",
+        "blit",
+        "faceDetect",
+        "skinseg"
+    ],
+    "resource_id": "7153495708987822593"
+}

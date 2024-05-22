@@ -1,0 +1,23 @@
+{
+    "effect_id": "3239558",
+    "file_url": {
+        "uri": "6010b1ed648fd569364376dc7722dddb",
+        "url_list": [
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/6010b1ed648fd569364376dc7722dddb",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/6010b1ed648fd569364376dc7722dddb",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/6010b1ed648fd569364376dc7722dddb",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/6010b1ed648fd569364376dc7722dddb"
+        ]
+    },
+    "model_names": "{\"faceDetect\":[\"tt_face\"],\"skinseg\":[\"tt_skin_seg\"]}",
+    "name": "Скрасить",
+    "panel": "",
+    "requirements": [
+        "ext_texture_producer",
+        "skin_seg",
+        "face",
+        "texture_blit",
+        "faceDetect"
+    ],
+    "resource_id": "7134583242732081666"
+}

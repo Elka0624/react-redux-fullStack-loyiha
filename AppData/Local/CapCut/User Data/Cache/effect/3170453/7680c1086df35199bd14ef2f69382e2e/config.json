@@ -1,0 +1,81 @@
+{
+	"ae_tool" : "AmazingEditor",
+	"bALG_BACH_CONFIG" : true,
+	"effect" : 
+	{
+		"Link" : 
+		[
+			{
+				"exclusiveScene" : 
+				[
+					{
+						"composerKey" : 
+						[
+							"Smooth_ALL",
+							"Pouch_ALL",
+							"NasolabialFolds_ALL"
+						],
+						"priority" : 1000,
+						"sceneKey" : "FaceBeauty/Smooth",
+						"tagName" : 
+						[
+							"AmazingFeature/"
+						]
+					}
+				],
+				"extra" : 
+				{
+					"composer_param" : 
+					[
+						{
+							"allow_negative" : false,
+							"default_value" : 0.59999999999999998,
+							"key" : "Smooth_ALL",
+							"max_value" : 1.0,
+							"min_value" : 0.0,
+							"name" : "smooth"
+						},
+						{
+							"allow_negative" : false,
+							"default_value" : 0.5,
+							"key" : "Pouch_ALL",
+							"max_value" : 1.0,
+							"min_value" : 0.0,
+							"name" : "removepouch"
+						},
+						{
+							"allow_negative" : false,
+							"default_value" : 0.29999999999999999,
+							"key" : "NasolabialFolds_ALL",
+							"max_value" : 1.0,
+							"min_value" : 0.0,
+							"name" : "removeNasolabialFolds"
+						}
+					]
+				},
+				"path" : "AmazingFeature/",
+				"rtShare" : true,
+				"type" : "AmazingFeature",
+				"zorder" : 1000
+			}
+		],
+		"coexistScene" : 
+		{
+			"allowList" : 
+			[
+				"*"
+			]
+		},
+		"model_names" : 
+		{
+			"alg_model" : 
+			[
+				"tt_face",
+				"tt_fsnew_base_jianying",
+				"tt_skin_seg"
+			]
+		}
+	},
+	"name" : "Editor_Sticker_Config_TAG_SmoothV7Plus_set_Aweme",
+	"version" : "10.1.0"
+}

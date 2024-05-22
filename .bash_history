@@ -444,3 +444,18 @@ code .
 mkdir EshikPro
 cd EshikPro/
 npx create-react-app project
+cd
+cd d:
+cd f:
+ls
+cd shaxsiy/elka/
+git clone https://github.com/MrBroo/realcode.git
+code realcode/
+cd f:
+ls
+cd shaxsiy/
+ls
+cd elka
+git clone https://github.com/MrBroo/realcode.git
+code realcode
+npm create vite@latest

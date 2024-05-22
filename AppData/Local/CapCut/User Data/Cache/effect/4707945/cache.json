@@ -1,0 +1,21 @@
+{
+    "effect_id": "4707945",
+    "file_url": {
+        "uri": "8839ba785c676d5a9bdf4f0f5e9deb97",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/8839ba785c676d5a9bdf4f0f5e9deb97",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/8839ba785c676d5a9bdf4f0f5e9deb97",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/8839ba785c676d5a9bdf4f0f5e9deb97",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/8839ba785c676d5a9bdf4f0f5e9deb97"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "Умница",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "freid"
+    ],
+    "resource_id": "7158760070040261121"
+}

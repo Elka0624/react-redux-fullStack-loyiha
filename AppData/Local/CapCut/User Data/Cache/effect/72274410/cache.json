@@ -1,0 +1,21 @@
+{
+    "effect_id": "72274410",
+    "file_url": {
+        "uri": "a8561700c8978ae75952e4db0d1915f8",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/a8561700c8978ae75952e4db0d1915f8",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/a8561700c8978ae75952e4db0d1915f8",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/a8561700c8978ae75952e4db0d1915f8",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/a8561700c8978ae75952e4db0d1915f8"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "小魔女",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "freid"
+    ],
+    "resource_id": "7270833989080846849"
+}

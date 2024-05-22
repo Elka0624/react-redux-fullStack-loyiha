@@ -1,0 +1,21 @@
+{
+    "effect_id": "68643630",
+    "file_url": {
+        "uri": "a0dc23f0434067b6a129b7f0fb87b145",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/a0dc23f0434067b6a129b7f0fb87b145",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/a0dc23f0434067b6a129b7f0fb87b145",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/a0dc23f0434067b6a129b7f0fb87b145",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/a0dc23f0434067b6a129b7f0fb87b145"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "Морская соль",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "freid"
+    ],
+    "resource_id": "7268598244572140034"
+}

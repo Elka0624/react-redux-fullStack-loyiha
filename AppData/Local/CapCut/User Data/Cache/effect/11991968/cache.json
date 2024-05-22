@@ -1,0 +1,19 @@
+{
+    "effect_id": "11991968",
+    "file_url": {
+        "uri": "d563c1b3212bc899bbfde899f4d71734",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/d563c1b3212bc899bbfde899f4d71734",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/d563c1b3212bc899bbfde899f4d71734",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/d563c1b3212bc899bbfde899f4d71734",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/d563c1b3212bc899bbfde899f4d71734"
+        ]
+    },
+    "model_names": "",
+    "name": "Переворот вверх",
+    "panel": "",
+    "requirements": [
+        "blit"
+    ],
+    "resource_id": "7195849719673786882"
+}

@@ -1,0 +1,226 @@
+{
+    "ae_tool": "AmazingEditor",
+    "bALG_BACH_CONFIG": true,
+    "effect": {
+        "Link": [
+            {
+                "path": "AmazingFeature/",
+                "type": "AmazingFeature",
+                "zorder": 8011,
+                "extra": {
+                    "composer_param": [
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_eyeshadow_jiazhouriluo",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_eyeshadow_jipusai",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_eyeshadow_shaonvfen",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_eyeshadow_wugu",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_eyeshadow_dadizhong",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_eyeshadow_richangju",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_eyelash_mashenggan",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_eyelash_oumei",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_eyelash_yanxi",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_eyelash_yesheng",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_lip_houchun",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_lip_houchunColorKH",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_lip_houchunColorYF",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_lip_houchunColorZRNS",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_lip_liangzhe",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_lip_wumian",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_lip_wumianColorBCMS",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_lip_wumianColorHBS",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_lip_yaochun",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_lip_yunran",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_lip_yunranColorCMBC",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_lip_yunranColorRHF",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_lip_yunranColorYQ",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_lip_yunranColorZNG",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        },
+                        {
+                            "name": "intensity",
+                            "key": "face_adjust_lip_yunranColorZRNS",
+                            "default_value": 0.8,
+                            "min_value": 0.0,
+                            "max_value": 1.0,
+                            "allow_negative": false
+                        }
+                    ]
+                }
+            }
+        ],
+        "model_names": {
+            "alg_model": [
+                "tt_face_extra",
+                "tt_fsnew_base_jianying",
+                "tt_freid"
+            ]
+        }
+    },
+    "name": "legacy-model-2d",
+    "version": "12.7.0"
+}

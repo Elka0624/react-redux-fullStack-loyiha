@@ -1,0 +1,21 @@
+{
+    "effect_id": "34457332",
+    "file_url": {
+        "uri": "6b563e8176b904d54ba1de1cd1342f2f",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/6b563e8176b904d54ba1de1cd1342f2f",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/6b563e8176b904d54ba1de1cd1342f2f",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/6b563e8176b904d54ba1de1cd1342f2f",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/6b563e8176b904d54ba1de1cd1342f2f"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "Zia",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "freid"
+    ],
+    "resource_id": "7241116773171335682"
+}

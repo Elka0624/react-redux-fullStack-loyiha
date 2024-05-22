@@ -1,0 +1,17 @@
+[50x90]
+0\request=3333
+0\duration=16667
+0\rough=true
+0\flags=1
+3000000\request=3369999
+3000000\duration=16667
+3000000\rough=true
+3000000\flags=1
+1466667\request=1469999
+1466667\duration=16667
+1466667\rough=false
+1466667\flags=1
+4466667\request=4469999
+4466667\duration=16667
+4466667\rough=false
+4466667\flags=1

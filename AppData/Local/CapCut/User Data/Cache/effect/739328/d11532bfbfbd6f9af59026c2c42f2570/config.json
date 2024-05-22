@@ -1,0 +1,13 @@
+{
+    "effect": {
+        "Link": [
+            {
+                "type": "AmazingFeature",
+                "zorder": 10000,
+                "path": "amazingfeature/"
+            }
+        ]
+    },
+    "name": "GESticker_screen_shake_20191127_165253",
+    "version": "6.6.0"
+}

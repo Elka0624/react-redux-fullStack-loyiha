@@ -1,0 +1,19 @@
+{
+    "effect_id": "36057653",
+    "file_url": {
+        "uri": "e998823411e4559aef7cd75a763481dd",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/e998823411e4559aef7cd75a763481dd",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/e998823411e4559aef7cd75a763481dd",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/e998823411e4559aef7cd75a763481dd",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/e998823411e4559aef7cd75a763481dd"
+        ]
+    },
+    "model_names": "",
+    "name": "Штриховая заливка",
+    "panel": "",
+    "requirements": [
+        "blit"
+    ],
+    "resource_id": "7239695891769070081"
+}

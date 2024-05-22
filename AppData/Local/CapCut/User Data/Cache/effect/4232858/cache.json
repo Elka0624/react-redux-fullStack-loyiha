@@ -1,0 +1,23 @@
+{
+    "effect_id": "4232858",
+    "file_url": {
+        "uri": "e0e46271507c5ba80cc245764767dbca",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/e0e46271507c5ba80cc245764767dbca",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/e0e46271507c5ba80cc245764767dbca",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/e0e46271507c5ba80cc245764767dbca",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/e0e46271507c5ba80cc245764767dbca"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face\",\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_skin_seg\"]}",
+    "name": "Миндаль",
+    "panel": "",
+    "requirements": [
+        "face",
+        "skin_seg",
+        "blit",
+        "faceDetect",
+        "skinseg"
+    ],
+    "resource_id": "7153495599050920449"
+}

@@ -1,0 +1,23 @@
+{
+    "effect_id": "4232860",
+    "file_url": {
+        "uri": "3ceca71c5e3fd1102b2d87270a2321a4",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/3ceca71c5e3fd1102b2d87270a2321a4",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/3ceca71c5e3fd1102b2d87270a2321a4",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/3ceca71c5e3fd1102b2d87270a2321a4",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/3ceca71c5e3fd1102b2d87270a2321a4"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face\",\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_skin_seg\"]}",
+    "name": "Теплый натуральный",
+    "panel": "",
+    "requirements": [
+        "face",
+        "skin_seg",
+        "blit",
+        "faceDetect",
+        "skinseg"
+    ],
+    "resource_id": "7153468449602146818"
+}

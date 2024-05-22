@@ -1,0 +1,21 @@
+{
+    "effect_id": "4707892",
+    "file_url": {
+        "uri": "b7ae2c5a552150183d0027c07c606263",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/b7ae2c5a552150183d0027c07c606263",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/b7ae2c5a552150183d0027c07c606263",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/b7ae2c5a552150183d0027c07c606263",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/b7ae2c5a552150183d0027c07c606263"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "Алый",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "freid"
+    ],
+    "resource_id": "7158755530012365314"
+}

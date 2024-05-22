@@ -1,0 +1,21 @@
+{
+    "effect_id": "4707884",
+    "file_url": {
+        "uri": "8afdc8dba64e09e30520386d758093f4",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/8afdc8dba64e09e30520386d758093f4",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/8afdc8dba64e09e30520386d758093f4",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/8afdc8dba64e09e30520386d758093f4",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/8afdc8dba64e09e30520386d758093f4"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "Черная помада",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "freid"
+    ],
+    "resource_id": "7158755717623583233"
+}

@@ -1,0 +1,23 @@
+{
+    "effect_id": "3239557",
+    "file_url": {
+        "uri": "9b76f61461adec71381935c454d95c1c",
+        "url_list": [
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/9b76f61461adec71381935c454d95c1c",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/9b76f61461adec71381935c454d95c1c",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/9b76f61461adec71381935c454d95c1c",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/9b76f61461adec71381935c454d95c1c"
+        ]
+    },
+    "model_names": "{\"faceDetect\":[\"tt_face\",\"tt_face_extra\"],\"skinseg\":[\"tt_skin_seg\"]}",
+    "name": "Сглаживание",
+    "panel": "",
+    "requirements": [
+        "skin_seg",
+        "face",
+        "texture_blit",
+        "faceDetect",
+        "blit"
+    ],
+    "resource_id": "7134583375607632386"
+}

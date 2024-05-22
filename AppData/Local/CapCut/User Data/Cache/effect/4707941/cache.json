@@ -1,0 +1,21 @@
+{
+    "effect_id": "4707941",
+    "file_url": {
+        "uri": "6fe498457f2d214d57765419071b4a13",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/6fe498457f2d214d57765419071b4a13",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/6fe498457f2d214d57765419071b4a13",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/6fe498457f2d214d57765419071b4a13",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/6fe498457f2d214d57765419071b4a13"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "Запад",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "freid"
+    ],
+    "resource_id": "7158759261768520193"
+}

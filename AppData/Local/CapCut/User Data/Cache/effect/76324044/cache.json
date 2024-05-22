@@ -1,0 +1,21 @@
+{
+    "effect_id": "76324044",
+    "file_url": {
+        "uri": "08152c9572e17e9392cce484a1da014f",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/08152c9572e17e9392cce484a1da014f",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/08152c9572e17e9392cce484a1da014f",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/08152c9572e17e9392cce484a1da014f",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/08152c9572e17e9392cce484a1da014f"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "Радужный",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "freid"
+    ],
+    "resource_id": "7226646149275324929"
+}

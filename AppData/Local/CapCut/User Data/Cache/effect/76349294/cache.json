@@ -1,0 +1,21 @@
+{
+    "effect_id": "76349294",
+    "file_url": {
+        "uri": "10cb3cb7c1fd46d8fde2568d18d95364",
+        "url_list": [
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/10cb3cb7c1fd46d8fde2568d18d95364",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/10cb3cb7c1fd46d8fde2568d18d95364",
+            "https://lf16-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/10cb3cb7c1fd46d8fde2568d18d95364",
+            "https://lf19-effectcdn.byteeffecttos-g.com/obj/ies.fe.effect.alisg/10cb3cb7c1fd46d8fde2568d18d95364"
+        ]
+    },
+    "model_names": "{\"alg_model\":[\"tt_face_extra\",\"tt_fsnew_base_jianying\",\"tt_freid\"]}",
+    "name": "Тюльпан",
+    "panel": "",
+    "requirements": [
+        "blit",
+        "face",
+        "freid"
+    ],
+    "resource_id": "7231831253626917377"
+}
