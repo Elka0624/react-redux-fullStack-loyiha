@@ -1,0 +1,511 @@
+Local Date: 2024/03/12 Local Time: 21:13:37
+Build info: May  5 2023 16:05:02 r
+
+DEBUGINFO : (21:13:37:768 |99999)    COMMON        9916; (ve_i18n_qt.cpp:97,QtI18n::init) [I18n] i18n locate_dir: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po
+DEBUGINFO : (21:13:37:768 |00000)    COMMON        9916; (ve_i18n_mgr.cpp:75,I18n::LanguageMgr::setLocalLanCode) [I18n] set Local lan code: en
+DEBUGINFO : (21:13:37:769 |00000)    COMMON        9916; (ve_i18n_qt.cpp:121,QtI18n::set_language) [I18n] info: ru-RU
+DEBUGINFO : (21:13:38:013 |00244)    COMMON        9916; (sscronet_engine.cpp:260,SscronetEngine::init) SETTINGS_DIGITAL_REGISTRY not match
+DEBUGINFO : (21:13:38:092 |00079)    COMMON        9916; (detectorConfig.cpp:54,DetectorConfig::registerSettingsCallback) request settings
+DEBUGINFO : (21:13:38:093 |00001)                  7336; init settings context by once
+DEBUGINFO : (21:13:38:093 |00000)                  7336; init settings by once
+DEBUGINFO : (21:13:38:094 |00001)                  7336; init settings by once andy begin request
+DEBUGINFO : (21:13:38:094 |00000)                  7336; start request
+DEBUGINFO : (21:13:38:094 |00000)                 15876; request settings begin
+DEBUGINFO : (21:13:38:154 |00060)    COMMON        9916; (detectorcore.cpp:171,VEDetectorCore::reportLaunch) enter reportLaunch
+DEBUGINFO : (21:13:38:154 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:38:155 |00001)    COMMON        9916; (updateDriver.cpp:1401,UpdateDriver::getMainMonitorDeviceID) deviceID:PCI\VEN_8086&DEV_0156&SUBSYS_500317AA&REV_09
+DEBUGINFO : (21:13:38:155 |00000)    COMMON        9916; (updateDriver.cpp:1249,UpdateDriver::generateGraphcisCardInfo) SetupDiEnumDeviceInfo deviceIndex=1
+DEBUGINFO : (21:13:38:155 |00000)    COMMON        9916; (updateDriver.cpp:1351,UpdateDriver::CM_Get_DevNode_Property_Filetime) DriverDate : 2016/12/29
+DEBUGINFO : (21:13:38:155 |00000)    COMMON        9916; (updateDriver.cpp:1330,UpdateDriver::CM_Get_DevNode_Property_String) DriverVersion : 21.21.13.7654
+DEBUGINFO : (21:13:38:155 |00000)    COMMON        9916; (updateDriver.cpp:1330,UpdateDriver::CM_Get_DevNode_Property_String) DriverDesc : NVIDIA GeForce GT 720M
+DEBUGINFO : (21:13:38:155 |00000)    COMMON        9916; (updateDriver.cpp:1330,UpdateDriver::CM_Get_DevNode_Property_String) DriverProvider : NVIDIA
+DEBUGINFO : (21:13:38:155 |00000)    COMMON        9916; (updateDriver.cpp:1249,UpdateDriver::generateGraphcisCardInfo) SetupDiEnumDeviceInfo deviceIndex=2
+DEBUGINFO : (21:13:38:155 |00000)    COMMON        9916; (updateDriver.cpp:1351,UpdateDriver::CM_Get_DevNode_Property_Filetime) DriverDate : 2015/7/10
+DEBUGINFO : (21:13:38:156 |00001)    COMMON        9916; (updateDriver.cpp:1330,UpdateDriver::CM_Get_DevNode_Property_String) DriverVersion : 10.18.10.4252
+DEBUGINFO : (21:13:38:156 |00000)    COMMON        9916; (updateDriver.cpp:1330,UpdateDriver::CM_Get_DevNode_Property_String) DriverDesc : Intel(R) HD Graphics
+DEBUGINFO : (21:13:38:156 |00000)    COMMON        9916; (updateDriver.cpp:1330,UpdateDriver::CM_Get_DevNode_Property_String) DriverProvider : Intel Corporation
+DEBUGINFO : (21:13:38:156 |00000)    COMMON        9916; (updateDriver.cpp:1312,UpdateDriver::generateGraphcisCardInfo) duration:1
+DEBUGINFO : (21:13:38:156 |00000)    COMMON        9916; (updateDriver.cpp:1314,UpdateDriver::generateGraphcisCardInfo) leave
+DEBUGINFO : (21:13:39:150 |00995)                 15876; request settings success
+DEBUGINFO : (21:13:39:150 |00000)                 15876; handle success
+DEBUG     : (21:13:39:157 |00007)                 15876; update settings json...
+DEBUGINFO : (21:13:39:157 |00000)                 15876; 1.mark dirty & update cache json string
+DEBUGINFO : (21:13:39:161 |00004)                 15876; 2,update cache json string success & update cache json
+DEBUGINFO : (21:13:39:169 |00008)                 15876; 3.update cache json file
+DEBUGINFO : (21:13:39:314 |00145)    COMMON        9916; (DetectorCoreApp.cpp:60,DetectorCoreApp::onUpdateSetting) onUpdateSetting success:1
+DEBUGINFO : (21:13:39:315 |00001)    COMMON        9916; (VEDetectorSettings.cpp:105,VEDetectorSettings::GpuBugListSwitch) gpu_bug_list_switch : 1
+DEBUGINFO : (21:13:39:315 |00000)    COMMON        9916; (VEDetectorSettings.cpp:89,VEDetectorSettings::GetTosDomain) cur domain:capcutpc-packages-us
+DEBUGINFO : (21:13:39:315 |00000)    COMMON        9916; (gpuBugListMgr.cpp:25,GpuBugListMgr::Init) gpu_bug_list_config_url_:https://lf16-capcut.faceueditorv.com/obj/capcutpc-packages-sg/driver/gpu_driver_bug_list.json
+DEBUGINFO : (21:13:39:315 |00000)    COMMON        9916; (gpuBugListMgr.cpp:75,GpuBugListMgr::ReqConfigFile_) download gpu_driver_bug_list start url:https://lf16-capcut.faceueditorv.com/obj/capcutpc-packages-sg/driver/gpu_driver_bug_list.json path:C:/Users/Lenovo/AppData/Local/CapCut/User Data/Download/gpu_driver_bug_list.json
+DEBUGINFO : (21:13:39:315 |00000)    COMMON        9916; (detector.cpp:1293,DetectorManager::CheckAllSimulate) CheckAllSimulate enter
+DEBUGINFO : (21:13:39:315 |00000)    COMMON        9916; (detectorcore.cpp:456,VEDetectorCore::getVERenderGpuInfo) dll path:C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/ttvideoeditor.dll
+DEBUGINFO : (21:13:39:316 |00001)                 15876; request next by success, before success_delay_time_ = 3600000
+DEBUGINFO : (21:13:39:987 |00670)    COMMON        9916; (detectorcore.cpp:492,VEDetectorCore::getVERenderGpuInfo) duration:671
+DEBUGINFO : (21:13:39:987 |00000)    COMMON        9916; (detectorcore.cpp:508,VEDetectorCore::getNeedUpdateDriverGpuInfo) getVERenderGpuInfo ve_vendorID:10DE ve_deviceID:1140
+DEBUGINFO : (21:13:39:987 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:39:987 |00000)    COMMON        9916; (updateDriver.cpp:1054,UpdateDriver::needUpdateGraphicsCardDriver) vendorID:10DE vendorID:1140 needLimitDriverDate:1
+DEBUGINFO : (21:13:39:987 |00000)    COMMON        9916; (updateDriver.cpp:1065,UpdateDriver::needUpdateGraphicsCardDriver) installed driver
+DEBUGINFO : (21:13:39:988 |00001)    COMMON        9916; (updateDriver.cpp:1074,UpdateDriver::needUpdateGraphicsCardDriver) current driver vendorID:10DE deviceID:1140 2016-12-29
+ERROR     : (21:13:40:002 |00013)    COMMON        9916; (nvapi_wrapper.cpp:309,nvapi::NvapiWrapper::NvapiWrapper) load fail dll: nvapi64.dll
+DEBUGINFO : (21:13:40:002 |00001)    COMMON        9916; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:40:002 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:40:002 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:40:002 |00000)    COMMON        9916; (updateDriver.cpp:2057,UpdateDriver::GetWhiteListDriverConfig) os:10.0.19045 notebook:1 driverType:unknown drivername:NVIDIA GeForce GT 720M strDriverVersion:21.21.13.7654 vendorName:nvidia vendorID:10DE deviceID:1140
+DEBUGINFO : (21:13:40:023 |00021)    COMMON        9916; (updateDriver.cpp:1096,UpdateDriver::needUpdateGraphicsCardDriver) index:1 isPrimary:0 curDriverIndex:1 vecDrivers:1 vendorID:10DE deviceID:1140 vendorID:10DE deviceID:1140
+DEBUGINFO : (21:13:40:023 |00000)    COMMON        9916; (updateDriver.cpp:1105,UpdateDriver::needUpdateGraphicsCardDriver) limitDate 2018:1:1 curDate 2016:12:29
+DEBUGINFO : (21:13:40:023 |00000)    COMMON        9916; (updateDriver.cpp:1115,UpdateDriver::needUpdateGraphicsCardDriver) needQueryConfigList:1
+ERROR     : (21:13:40:023 |00000)    COMMON        9916; (nvapi_wrapper.cpp:309,nvapi::NvapiWrapper::NvapiWrapper) load fail dll: nvapi64.dll
+DEBUGINFO : (21:13:40:023 |00000)    COMMON        9916; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:40:023 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:40:023 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:40:023 |00000)    COMMON        9916; (updateDriver.cpp:1907,UpdateDriver::GetGeneralListDriverConfig) os:10.0.19045 notebook:1 driverType:unknown drivername:NVIDIA GeForce GT 720M vendorName:nvidia vendorID:10DE deviceID:1140
+DEBUGINFO : (21:13:40:036 |00013)    COMMON        9916; (updateDriver.cpp:649,UpdateDriver::getUpdateDriverType) update_driver_type:jump_vendor_download_page
+DEBUGINFO : (21:13:40:036 |00000)    COMMON        9916; (detectorcore.cpp:511,VEDetectorCore::getNeedUpdateDriverGpuInfo) getVERenderGpuInfo need update ve_vendorID:10DE ve_deviceID:1140
+WARNING   : (21:13:40:037 |00001)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:17: warning: unknown Plural-Forms given: 
+
+WARNING   : (21:13:40:046 |00009)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:2405: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:050 |00004)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:3273: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:111 |00061)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:3913: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:121 |00010)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:5609: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:121 |00000)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:5643: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:134 |00013)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:8816: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:136 |00002)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:9409: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:139 |00003)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:10244: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:139 |00000)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:10251: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:139 |00000)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:10258: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:139 |00000)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:10265: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:139 |00000)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:10281: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:139 |00000)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:10291: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:139 |00000)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:10298: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:266 |00127)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:12722: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:269 |00003)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:12843: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:269 |00000)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:12850: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:270 |00001)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:13118: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:270 |00000)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:13158: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+WARNING   : (21:13:40:271 |00001)    COMMON        9916; (ve_i18n_qt.cpp:62,i18n_logger) [I18n] warning: C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/Resources/po/ru-RU.po:13219: warning: msgstr[N] seen, but no Plural-Forms given: 
+
+DEBUGINFO : (21:13:40:271 |00000)    COMMON        9916; (detector.cpp:1494,DetectorManager::CheckNext) cur_detector type:10
+DEBUGINFO : (21:13:40:326 |00055)    COMMON       10744; (detector.cpp:299,DetectorBase::checkInternal) type:10
+DEBUGINFO : (21:13:40:880 |00555)    COMMON        9916; (gpuBugListMgr.cpp:58,GpuBugListMgr::ReqConfigFile_::<lambda_336c79c76d61b79fff870eee01656709>::operator ()) download finish
+DEBUGINFO : (21:13:41:660 |00779)    COMMON       10744; (VEDetectorSettings.cpp:198,VEDetectorSettings::GetIntelDiscreteCardSwitch) check intel discrete switch : 1
+DEBUGINFO : (21:13:41:661 |00001)    COMMON       10744; (updateDriver.cpp:397,UpdateDriver::getAllIntelGraphicsDeviceInfo) getAllIntelGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:41:661 |00000)    COMMON       10744; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:41:661 |00000)    COMMON       10744; (updateDriver.cpp:403,UpdateDriver::getAllIntelGraphicsDeviceInfo) getAllIntelGraphicsDeviceInfo vendor_id:8086 device_id:0156
+DEBUGINFO : (21:13:41:661 |00000)    COMMON       10744; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:32902 deviceID:342
+DEBUGINFO : (21:13:41:661 |00000)    COMMON       10744; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:41:661 |00000)    COMMON       10744; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:41:661 |00000)    COMMON       10744; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:8086 strDeviceID:0156 curVendorID:32902 curDeviceID:342
+DEBUGINFO : (21:13:41:663 |00002)    COMMON       10744; (VEDetectorSettings.cpp:198,VEDetectorSettings::GetIntelDiscreteCardSwitch) check intel discrete switch : 1
+DEBUGINFO : (21:13:41:663 |00000)    COMMON       10744; (updateDriver.cpp:397,UpdateDriver::getAllIntelGraphicsDeviceInfo) getAllIntelGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:41:663 |00000)    COMMON       10744; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:41:663 |00000)    COMMON       10744; (updateDriver.cpp:403,UpdateDriver::getAllIntelGraphicsDeviceInfo) getAllIntelGraphicsDeviceInfo vendor_id:8086 device_id:0156
+DEBUGINFO : (21:13:41:759 |00096)    COMMON       10744; (detector.cpp:177,`anonymous-namespace'::createNewProcess) ShellExecuteEx exe_path:C:\Users\Lenovo\AppData\Local\CapCut\Apps\2.2.0.491\VEDetector.exe param:-check_intel_discrete_card 0156
+DEBUGINFO : (21:13:42:091 |00333)    COMMON       10744; (detector.cpp:180,`anonymous-namespace'::createNewProcess) ShellExecuteEx success
+DEBUGINFO : (21:13:42:091 |00000)    COMMON       10744; (detector.cpp:184,`anonymous-namespace'::createNewProcess) hProcess is valid
+DEBUGINFO : (21:13:42:312 |00221)    COMMON       10744; (detector.cpp:2012,IntelDiscreteCardDetector::doCheck) vendorID:8086 deviceID:0156 ret:-1
+DEBUGINFO : (21:13:42:314 |00002)    COMMON        9916; (detector.cpp:1448,DetectorManager::onItemCheckFinished) type:10 success:1
+DEBUGINFO : (21:13:42:314 |00000)    COMMON        9916; (VEDetectorSettings.cpp:198,VEDetectorSettings::GetIntelDiscreteCardSwitch) check intel discrete switch : 1
+DEBUGINFO : (21:13:42:314 |00000)    COMMON        9916; (detector.cpp:1494,DetectorManager::CheckNext) cur_detector type:11
+DEBUGINFO : (21:13:42:314 |00000)    COMMON       10744; (detector.cpp:299,DetectorBase::checkInternal) type:11
+DEBUGINFO : (21:13:43:338 |01024)    COMMON       10744; (VEDetectorSettings.cpp:266,VEDetectorSettings::GetNvSettingDetectorSwitch) check nv setting detector switch : 1
+DEBUGINFO : (21:13:43:338 |00000)    COMMON       10744; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:43:338 |00000)    COMMON       10744; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:43:338 |00000)    COMMON       10744; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:43:338 |00000)    COMMON       10744; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:43:338 |00000)    COMMON       10744; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:43:338 |00000)    COMMON       10744; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:32902 deviceID:342
+DEBUGINFO : (21:13:43:338 |00000)    COMMON       10744; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:43:338 |00000)    COMMON       10744; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:43:338 |00000)    COMMON       10744; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:8086 strDeviceID:0156 curVendorID:32902 curDeviceID:342
+DEBUGINFO : (21:13:43:340 |00002)    COMMON       10744; (VEDetectorSettings.cpp:266,VEDetectorSettings::GetNvSettingDetectorSwitch) check nv setting detector switch : 1
+DEBUGINFO : (21:13:43:341 |00001)    COMMON       10744; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+ERROR     : (21:13:43:341 |00000)    COMMON       10744; (nvapi_wrapper.cpp:309,nvapi::NvapiWrapper::NvapiWrapper) load fail dll: nvapi64.dll
+DEBUGINFO : (21:13:43:341 |00000)    COMMON       10744; (VEDetectorSettings.cpp:277,VEDetectorSettings::GetShowNvSettingConfirmSwitch) show nv setting confirm switch : 1
+DEBUGINFO : (21:13:43:342 |00001)    COMMON        9916; (detector.cpp:1448,DetectorManager::onItemCheckFinished) type:11 success:1
+DEBUGINFO : (21:13:43:342 |00000)    COMMON        9916; (VEDetectorSettings.cpp:266,VEDetectorSettings::GetNvSettingDetectorSwitch) check nv setting detector switch : 1
+DEBUGINFO : (21:13:43:342 |00000)    COMMON        9916; (detector.cpp:1494,DetectorManager::CheckNext) cur_detector type:1
+DEBUGINFO : (21:13:43:353 |00011)    COMMON       14500; (detector.cpp:299,DetectorBase::checkInternal) type:1
+DEBUGINFO : (21:13:44:374 |01021)    COMMON        9916; (detector.cpp:1448,DetectorManager::onItemCheckFinished) type:1 success:0
+DEBUGINFO : (21:13:44:374 |00000)    COMMON        9916; (detector.cpp:1494,DetectorManager::CheckNext) cur_detector type:0
+DEBUGINFO : (21:13:44:374 |00000)    COMMON       10744; (detector.cpp:299,DetectorBase::checkInternal) type:0
+DEBUGINFO : (21:13:45:383 |01008)    COMMON       10744; (VEDetectorSettings.cpp:218,VEDetectorSettings::GetCheckUnknownDeviceSwitch) check unknown device switch : 1
+DEBUGINFO : (21:13:45:383 |00000)    COMMON       10744; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:45:383 |00000)    COMMON       10744; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:45:386 |00003)    COMMON       10744; (VEDetectorSettings.cpp:218,VEDetectorSettings::GetCheckUnknownDeviceSwitch) check unknown device switch : 1
+DEBUGINFO : (21:13:45:389 |00003)    COMMON       10744; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:45:389 |00000)    COMMON       10744; (updateDriver.cpp:937,UpdateDriver::GetKnownCardVendorList) str_vendor_list 8086;1002;10DE;1ED5
+DEBUGINFO : (21:13:45:390 |00001)    COMMON        9916; (detector.cpp:1448,DetectorManager::onItemCheckFinished) type:0 success:1
+DEBUGINFO : (21:13:45:390 |00000)    COMMON        9916; (VEDetectorSettings.cpp:218,VEDetectorSettings::GetCheckUnknownDeviceSwitch) check unknown device switch : 1
+DEBUGINFO : (21:13:45:390 |00000)    COMMON        9916; (detector.cpp:1494,DetectorManager::CheckNext) cur_detector type:2
+DEBUGINFO : (21:13:45:390 |00000)    COMMON       14500; (detector.cpp:299,DetectorBase::checkInternal) type:2
+DEBUGINFO : (21:13:46:407 |01018)    COMMON       14500; (VEDetectorSettings.cpp:224,VEDetectorSettings::GetCheckUpdateDriverSwitch) check update driver switch : 1
+DEBUGINFO : (21:13:46:407 |00000)    COMMON       14500; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:46:407 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:46:407 |00000)    COMMON       14500; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:46:407 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:46:407 |00000)    COMMON       14500; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:46:407 |00000)    COMMON       14500; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:32902 deviceID:342
+DEBUGINFO : (21:13:46:407 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:46:407 |00000)    COMMON       14500; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:46:407 |00000)    COMMON       14500; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:8086 strDeviceID:0156 curVendorID:32902 curDeviceID:342
+DEBUGINFO : (21:13:46:408 |00001)    COMMON       14500; (VEDetectorSettings.cpp:224,VEDetectorSettings::GetCheckUpdateDriverSwitch) check update driver switch : 1
+DEBUGINFO : (21:13:46:410 |00002)    COMMON       14500; (VEDetectorSettings.cpp:135,VEDetectorSettings::GetWin7NeedPackList) gpu_bug_list_config_url : KB4532945;KB4474419
+DEBUGINFO : (21:13:46:410 |00000)    COMMON       14500; (VEDetectorSettings.cpp:141,VEDetectorSettings::GetWin7NeedCheckVersion) os_version : 6.1.7600;6.1.7601
+DEBUGINFO : (21:13:46:410 |00000)    COMMON       14500; (win7PackCheck.cpp:82,Win7PackCheck::IsWin7CheckVersion_) os_version : 10.0.19045
+DEBUGINFO : (21:13:46:410 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:46:410 |00000)    COMMON       14500; (updateDriver.cpp:1054,UpdateDriver::needUpdateGraphicsCardDriver) vendorID:10DE vendorID:1140 needLimitDriverDate:1
+DEBUGINFO : (21:13:46:410 |00000)    COMMON       14500; (updateDriver.cpp:1065,UpdateDriver::needUpdateGraphicsCardDriver) installed driver
+DEBUGINFO : (21:13:46:410 |00000)    COMMON       14500; (updateDriver.cpp:1074,UpdateDriver::needUpdateGraphicsCardDriver) current driver vendorID:10DE deviceID:1140 2016-12-29
+ERROR     : (21:13:46:410 |00000)    COMMON       14500; (nvapi_wrapper.cpp:309,nvapi::NvapiWrapper::NvapiWrapper) load fail dll: nvapi64.dll
+DEBUGINFO : (21:13:46:410 |00000)    COMMON       14500; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:46:410 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:46:410 |00000)    COMMON       14500; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:46:410 |00000)    COMMON       14500; (updateDriver.cpp:2057,UpdateDriver::GetWhiteListDriverConfig) os:10.0.19045 notebook:1 driverType:unknown drivername:NVIDIA GeForce GT 720M strDriverVersion:21.21.13.7654 vendorName:nvidia vendorID:10DE deviceID:1140
+DEBUGINFO : (21:13:46:419 |00009)    COMMON       14500; (updateDriver.cpp:1096,UpdateDriver::needUpdateGraphicsCardDriver) index:1 isPrimary:0 curDriverIndex:1 vecDrivers:1 vendorID:10DE deviceID:1140 vendorID:10DE deviceID:1140
+DEBUGINFO : (21:13:46:419 |00000)    COMMON       14500; (updateDriver.cpp:1105,UpdateDriver::needUpdateGraphicsCardDriver) limitDate 2018:1:1 curDate 2016:12:29
+DEBUGINFO : (21:13:46:419 |00000)    COMMON       14500; (updateDriver.cpp:1115,UpdateDriver::needUpdateGraphicsCardDriver) needQueryConfigList:1
+ERROR     : (21:13:46:419 |00000)    COMMON       14500; (nvapi_wrapper.cpp:309,nvapi::NvapiWrapper::NvapiWrapper) load fail dll: nvapi64.dll
+DEBUGINFO : (21:13:46:419 |00000)    COMMON       14500; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:46:419 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:46:419 |00000)    COMMON       14500; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:46:419 |00000)    COMMON       14500; (updateDriver.cpp:1907,UpdateDriver::GetGeneralListDriverConfig) os:10.0.19045 notebook:1 driverType:unknown drivername:NVIDIA GeForce GT 720M vendorName:nvidia vendorID:10DE deviceID:1140
+DEBUGINFO : (21:13:46:432 |00013)    COMMON       14500; (updateDriver.cpp:649,UpdateDriver::getUpdateDriverType) update_driver_type:jump_vendor_download_page
+DEBUGINFO : (21:13:46:433 |00001)    COMMON        9916; (detector.cpp:1448,DetectorManager::onItemCheckFinished) type:2 success:0
+DEBUGINFO : (21:13:46:433 |00000)    COMMON        9916; (VEDetectorSettings.cpp:224,VEDetectorSettings::GetCheckUpdateDriverSwitch) check update driver switch : 1
+DEBUGINFO : (21:13:46:433 |00000)    COMMON        9916; (detector.cpp:1510,DetectorManager::CheckNext) cur_detector type:3
+DEBUGINFO : (21:13:46:433 |00000)    COMMON       14500; (detector.cpp:299,DetectorBase::checkInternal) type:3
+DEBUGINFO : (21:13:47:441 |01008)    COMMON       14500; (VEDetectorSettings.cpp:230,VEDetectorSettings::GetCheckVeDeviceSwitch) check ve hw device switch : 1
+DEBUGINFO : (21:13:47:441 |00000)    COMMON       14500; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:47:441 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:47:441 |00000)    COMMON       14500; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:47:441 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:47:441 |00000)    COMMON       14500; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:47:441 |00000)    COMMON       14500; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:32902 deviceID:342
+DEBUGINFO : (21:13:47:441 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:47:441 |00000)    COMMON       14500; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:47:441 |00000)    COMMON       14500; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:8086 strDeviceID:0156 curVendorID:32902 curDeviceID:342
+DEBUGINFO : (21:13:47:445 |00004)    COMMON       14500; (VEDetectorSettings.cpp:230,VEDetectorSettings::GetCheckVeDeviceSwitch) check ve hw device switch : 1
+DEBUGINFO : (21:13:47:445 |00000)    COMMON       14500; (detector.cpp:858,GraphicsDriverDetector::doCheck) dll path:C:/Users/Lenovo/AppData/Local/CapCut/Apps/2.2.0.491/ttvideoeditor.dll
+DEBUGINFO : (21:13:47:585 |00140)    COMMON        9916; (detector.cpp:1448,DetectorManager::onItemCheckFinished) type:3 success:0
+DEBUGINFO : (21:13:47:585 |00000)    COMMON        9916; (detector.cpp:1510,DetectorManager::CheckNext) cur_detector type:5
+DEBUGINFO : (21:13:47:586 |00001)    COMMON       14500; (detector.cpp:299,DetectorBase::checkInternal) type:5
+DEBUGINFO : (21:13:48:738 |01152)    COMMON       14500; (VEDetectorSettings.cpp:236,VEDetectorSettings::GetCheckVeDeviceExSwitch) check ve hw ex device switch : 0
+DEBUGINFO : (21:13:48:739 |00001)    COMMON        9916; (detector.cpp:1448,DetectorManager::onItemCheckFinished) type:5 success:1
+DEBUGINFO : (21:13:48:739 |00000)    COMMON        9916; (detector.cpp:1510,DetectorManager::CheckNext) cur_detector type:4
+DEBUGINFO : (21:13:48:739 |00000)    COMMON       10744; (detector.cpp:299,DetectorBase::checkInternal) type:4
+DEBUGINFO : (21:13:49:757 |01017)    COMMON       10744; (VEDetectorSettings.cpp:242,VEDetectorSettings::GetCheckQt6RenderEnvSwitch) check qt render env switch : 1
+DEBUGINFO : (21:13:49:757 |00000)    COMMON       10744; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:49:757 |00000)    COMMON       10744; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:49:757 |00000)    COMMON       10744; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:49:757 |00000)    COMMON       10744; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:49:757 |00000)    COMMON       10744; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:49:757 |00000)    COMMON       10744; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:32902 deviceID:342
+DEBUGINFO : (21:13:49:757 |00000)    COMMON       10744; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:49:757 |00000)    COMMON       10744; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:49:757 |00000)    COMMON       10744; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:8086 strDeviceID:0156 curVendorID:32902 curDeviceID:342
+DEBUGINFO : (21:13:49:758 |00001)    COMMON       10744; (VEDetectorSettings.cpp:242,VEDetectorSettings::GetCheckQt6RenderEnvSwitch) check qt render env switch : 1
+DEBUGINFO : (21:13:50:612 |00854)    COMMON       10744; (detector.cpp:698,Qt6RenderEnvDetector::handle_render_result) disble_qt_hw_switch:0
+DEBUGINFO : (21:13:50:630 |00018)    COMMON        9916; (detector.cpp:1448,DetectorManager::onItemCheckFinished) type:4 success:1
+DEBUGINFO : (21:13:50:630 |00000)    COMMON        9916; (detector.cpp:1510,DetectorManager::CheckNext) cur_detector type:6
+DEBUGINFO : (21:13:50:630 |00000)    COMMON       14500; (detector.cpp:299,DetectorBase::checkInternal) type:6
+DEBUGINFO : (21:13:51:632 |01003)    COMMON       14500; (VEDetectorSettings.cpp:248,VEDetectorSettings::GetCheckGpuBugListSwitch) check gpu bug list switch : 1
+DEBUGINFO : (21:13:51:632 |00000)    COMMON       14500; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:51:632 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:51:632 |00000)    COMMON       14500; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:51:632 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:51:632 |00000)    COMMON       14500; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:51:632 |00000)    COMMON       14500; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:32902 deviceID:342
+DEBUGINFO : (21:13:51:632 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:51:632 |00000)    COMMON       14500; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:51:632 |00000)    COMMON       14500; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:8086 strDeviceID:0156 curVendorID:32902 curDeviceID:342
+DEBUGINFO : (21:13:51:633 |00001)    COMMON       14500; (VEDetectorSettings.cpp:248,VEDetectorSettings::GetCheckGpuBugListSwitch) check gpu bug list switch : 1
+DEBUGINFO : (21:13:51:633 |00000)    COMMON       14500; (gpuBugListCheck.cpp:272,GpuBugListCheck::init) init enter
+DEBUGINFO : (21:13:51:634 |00001)    COMMON       14500; (detector.cpp:1011,GpuBugListDetector::doCheck) GpuBugListDetector doCheck enter
+DEBUGINFO : (21:13:51:634 |00000)    COMMON       14500; (gpuBugListMgr.cpp:32,GpuBugListMgr::IsConfigFileDownloadFinish_) config_download_state_:2
+DEBUGINFO : (21:13:51:634 |00000)    COMMON       14500; (gpuBugListCheck.cpp:133,GpuBugListCheck::setConfigFilePath) doCheck enter file_path:C:/Users/Lenovo/AppData/Local/CapCut/User Data/Download/gpu_driver_bug_list.json
+DEBUGINFO : (21:13:51:634 |00000)    COMMON       14500; (gpuBugListCheck.cpp:143,GpuBugListCheck::doCheck) doCheck enter
+DEBUGINFO : (21:13:51:634 |00000)    COMMON       14500; (gpuBugListCheck.cpp:101,`anonymous-namespace'::getRootObjectFromFile) getRootObjectFromFile file path:C:/Users/Lenovo/AppData/Local/CapCut/User Data/Download/gpu_driver_bug_list.json
+DEBUGINFO : (21:13:51:635 |00001)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:286,GpuBugListCheck::getFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:1
+ERROR     : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:320,GpuBugListCheck::hitFeature) KITEM_ENABLE is 0
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:4
+ERROR     : (21:13:51:635 |00000)    COMMON       14500; (gpuBugListCheck.cpp:320,GpuBugListCheck::hitFeature) KITEM_ENABLE is 0
+DEBUGINFO : (21:13:51:637 |00002)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_d3d11_video_render feature_switch:close is_hit:0
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 10DE 1140 232341616 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:2
+ERROR     : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:350,GpuBugListCheck::hitFeature) hitVendor is false
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:5
+ERROR     : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:357,GpuBugListCheck::hitFeature) hitDevice is false
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_d3d11_video_decoder feature_switch:open is_hit:0
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 10DE 1140 232342576 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 10de_1140 disable_d3d11_video_decoder 0 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:3
+ERROR     : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:350,GpuBugListCheck::hitFeature) hitVendor is false
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:6
+ERROR     : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:320,GpuBugListCheck::hitFeature) KITEM_ENABLE is 0
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_hw_video_render feature_switch:open is_hit:0
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 10DE 1140 232343824 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 10de_1140 disable_hw_video_render 0 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:7
+ERROR     : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:350,GpuBugListCheck::hitFeature) hitVendor is false
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:8
+ERROR     : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:357,GpuBugListCheck::hitFeature) hitDevice is false
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_hw_qt_render feature_switch:open is_hit:0
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 10DE 1140 232341616 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 10de_1140 disable_hw_qt_render 0 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:9
+ERROR     : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:350,GpuBugListCheck::hitFeature) hitVendor is false
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_hw_video_decode feature_switch:open is_hit:0
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 10DE 1140 232343824 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 10de_1140 disable_hw_video_decode 0 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:10
+ERROR     : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:350,GpuBugListCheck::hitFeature) hitVendor is false
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:11
+ERROR     : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:350,GpuBugListCheck::hitFeature) hitVendor is false
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:12
+ERROR     : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:357,GpuBugListCheck::hitFeature) hitDevice is false
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:13
+ERROR     : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:350,GpuBugListCheck::hitFeature) hitVendor is false
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:16
+ERROR     : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:357,GpuBugListCheck::hitFeature) hitDevice is false
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_accelerated_hevc_decode feature_switch:open is_hit:0
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 10DE 1140 232342624 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 10de_1140 disable_accelerated_hevc_decode 0 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:199,GpuBugListCheck::doCheck) app version limit
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_accelerated_hevc_encode feature_switch:close is_hit:0
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 10DE 1140 232343824 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 10de_1140 disable_accelerated_hevc_encode 0 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:199,GpuBugListCheck::doCheck) app version limit
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_accelerated_h264_encode feature_switch:close is_hit:0
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 10DE 1140 232341952 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 10de_1140 disable_accelerated_h264_encode 0 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:199,GpuBugListCheck::doCheck) app version limit
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_d3d11_compute_shader feature_switch:close is_hit:0
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 10DE 1140 232341616 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 10de_1140 disable_d3d11_compute_shader 0 
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:1
+ERROR     : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:320,GpuBugListCheck::hitFeature) KITEM_ENABLE is 0
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:4
+ERROR     : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:320,GpuBugListCheck::hitFeature) KITEM_ENABLE is 0
+DEBUGINFO : (21:13:51:637 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_d3d11_video_render feature_switch:close is_hit:0
+DEBUGINFO : (21:13:51:638 |00001)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 8086 0156 232341616 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:2
+ERROR     : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:357,GpuBugListCheck::hitFeature) hitDevice is false
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:5
+ERROR     : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:350,GpuBugListCheck::hitFeature) hitVendor is false
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_d3d11_video_decoder feature_switch:open is_hit:0
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 8086 0156 232341616 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 8086_0156 disable_d3d11_video_decoder 0 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:3
+ERROR     : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:357,GpuBugListCheck::hitFeature) hitDevice is false
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:6
+ERROR     : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:320,GpuBugListCheck::hitFeature) KITEM_ENABLE is 0
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_hw_video_render feature_switch:open is_hit:0
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 8086 0156 232341616 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 8086_0156 disable_hw_video_render 0 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:7
+ERROR     : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:357,GpuBugListCheck::hitFeature) hitDevice is false
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:8
+ERROR     : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:350,GpuBugListCheck::hitFeature) hitVendor is false
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_hw_qt_render feature_switch:open is_hit:0
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 8086 0156 232341616 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 8086_0156 disable_hw_qt_render 0 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:9
+ERROR     : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:350,GpuBugListCheck::hitFeature) hitVendor is false
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_hw_video_decode feature_switch:open is_hit:0
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 8086 0156 232341616 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 8086_0156 disable_hw_video_decode 0 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:10
+ERROR     : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:357,GpuBugListCheck::hitFeature) hitDevice is false
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:11
+ERROR     : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:357,GpuBugListCheck::hitFeature) hitDevice is false
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:12
+ERROR     : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:350,GpuBugListCheck::hitFeature) hitVendor is false
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:13
+ERROR     : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:350,GpuBugListCheck::hitFeature) hitVendor is false
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:304,GpuBugListCheck::hitFeature) hitFeature enter
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:315,GpuBugListCheck::hitFeature) hitFeature item_id:16
+ERROR     : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:350,GpuBugListCheck::hitFeature) hitVendor is false
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_accelerated_hevc_decode feature_switch:open is_hit:0
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 8086 0156 232341616 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 8086_0156 disable_accelerated_hevc_decode 0 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:199,GpuBugListCheck::doCheck) app version limit
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_accelerated_hevc_encode feature_switch:close is_hit:0
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 8086 0156 232341616 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 8086_0156 disable_accelerated_hevc_encode 0 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:199,GpuBugListCheck::doCheck) app version limit
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_accelerated_h264_encode feature_switch:close is_hit:0
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 8086 0156 232341616 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 8086_0156 disable_accelerated_h264_encode 0 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:199,GpuBugListCheck::doCheck) app version limit
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:210,GpuBugListCheck::doCheck) feature:disable_d3d11_compute_shader feature_switch:close is_hit:0
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCheck.cpp:634,GpuBugListCheck::addFeatureResult) 8086 0156 232341616 
+DEBUGINFO : (21:13:51:638 |00000)    COMMON       14500; (gpuBugListCache.cpp:47,GpuBugListCache::AddFeature) is_simulate:1 8086_0156 disable_d3d11_compute_shader 0 
+DEBUGINFO : (21:13:51:639 |00001)    COMMON       14500; (gpuBugListCache.cpp:119,GpuBugListCache::WriteCacheToFile) is_simulate
+DEBUGINFO : (21:13:51:640 |00001)    COMMON        9916; (detector.cpp:1448,DetectorManager::onItemCheckFinished) type:6 success:1
+DEBUGINFO : (21:13:51:640 |00000)    COMMON        9916; (detector.cpp:1510,DetectorManager::CheckNext) cur_detector type:8
+DEBUGINFO : (21:13:51:640 |00000)    COMMON       14500; (detector.cpp:299,DetectorBase::checkInternal) type:8
+DEBUGINFO : (21:13:52:656 |01016)    COMMON       14500; (VEDetectorSettings.cpp:186,VEDetectorSettings::GetNvidiaGSyncCheckSwitch) check G-Sync switch : 1
+DEBUGINFO : (21:13:52:656 |00000)    COMMON       14500; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:52:656 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:52:656 |00000)    COMMON       14500; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:52:656 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:52:656 |00000)    COMMON       14500; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:52:658 |00002)    COMMON       14500; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:32902 deviceID:342
+DEBUGINFO : (21:13:52:658 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:52:658 |00000)    COMMON       14500; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:52:658 |00000)    COMMON       14500; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:8086 strDeviceID:0156 curVendorID:32902 curDeviceID:342
+DEBUGINFO : (21:13:52:665 |00007)    COMMON       14500; (VEDetectorSettings.cpp:186,VEDetectorSettings::GetNvidiaGSyncCheckSwitch) check G-Sync switch : 1
+DEBUGINFO : (21:13:52:665 |00000)    COMMON       14500; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:52:665 |00000)    COMMON       14500; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:52:665 |00000)    COMMON       14500; (detector.cpp:121,`anonymous-namespace'::check_ve_helper) check nvidiaGeting GYSNC_APPLICATIONMODE
+DEBUGINFO : (21:13:54:626 |01961)    COMMON       14500; (detector.cpp:1844,NvidiaGSyncDetector::doCheck) gsync_switch -160
+DEBUGINFO : (21:13:54:645 |00019)    COMMON        9916; (detector.cpp:1448,DetectorManager::onItemCheckFinished) type:8 success:1
+DEBUGINFO : (21:13:54:645 |00000)    COMMON        9916; (detector.cpp:1510,DetectorManager::CheckNext) cur_detector type:9
+DEBUGINFO : (21:13:54:645 |00000)    COMMON       14500; (detector.cpp:299,DetectorBase::checkInternal) type:9
+DEBUGINFO : (21:13:55:649 |01004)    COMMON       14500; (VEDetectorSettings.cpp:192,VEDetectorSettings::GetOpenglVersionCheckSwitch) check opengl version switch : 0
+DEBUGINFO : (21:13:55:650 |00001)    COMMON        9916; (detector.cpp:1448,DetectorManager::onItemCheckFinished) type:9 success:1
+DEBUGINFO : (21:13:55:650 |00000)    COMMON        9916; (detector.cpp:1513,DetectorManager::CheckNext) finish
+DEBUGINFO : (21:13:55:650 |00000)    COMMON        9916; (updateDriver.cpp:397,UpdateDriver::getAllIntelGraphicsDeviceInfo) getAllIntelGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:55:650 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:650 |00000)    COMMON        9916; (updateDriver.cpp:403,UpdateDriver::getAllIntelGraphicsDeviceInfo) getAllIntelGraphicsDeviceInfo vendor_id:8086 device_id:0156
+DEBUGINFO : (21:13:55:650 |00000)    COMMON        9916; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:32902 deviceID:342
+DEBUGINFO : (21:13:55:650 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:650 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:55:650 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:8086 strDeviceID:0156 curVendorID:32902 curDeviceID:342
+DEBUGINFO : (21:13:55:651 |00001)    COMMON        9916; (VEDetectorSettings.cpp:198,VEDetectorSettings::GetIntelDiscreteCardSwitch) check intel discrete switch : 1
+DEBUGINFO : (21:13:55:651 |00000)    COMMON        9916; (VEDetectorSettings.cpp:198,VEDetectorSettings::GetIntelDiscreteCardSwitch) check intel discrete switch : 1
+DEBUGINFO : (21:13:55:651 |00000)    COMMON        9916; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:55:651 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:651 |00000)    COMMON        9916; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:55:651 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:651 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:55:651 |00000)    COMMON        9916; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:32902 deviceID:342
+DEBUGINFO : (21:13:55:651 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:651 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:55:651 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:8086 strDeviceID:0156 curVendorID:32902 curDeviceID:342
+DEBUGINFO : (21:13:55:651 |00000)    COMMON        9916; (VEDetectorSettings.cpp:266,VEDetectorSettings::GetNvSettingDetectorSwitch) check nv setting detector switch : 1
+DEBUGINFO : (21:13:55:651 |00000)    COMMON        9916; (VEDetectorSettings.cpp:266,VEDetectorSettings::GetNvSettingDetectorSwitch) check nv setting detector switch : 1
+DEBUGINFO : (21:13:55:651 |00000)    COMMON        9916; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:55:651 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:652 |00001)    COMMON        9916; (VEDetectorSettings.cpp:212,VEDetectorSettings::GetLinkCableSwitch) check link cable switch : 1
+DEBUGINFO : (21:13:55:652 |00000)    COMMON        9916; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:55:652 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:652 |00000)    COMMON        9916; (VEDetectorSettings.cpp:218,VEDetectorSettings::GetCheckUnknownDeviceSwitch) check unknown device switch : 1
+DEBUGINFO : (21:13:55:652 |00000)    COMMON        9916; (VEDetectorSettings.cpp:218,VEDetectorSettings::GetCheckUnknownDeviceSwitch) check unknown device switch : 1
+DEBUGINFO : (21:13:55:652 |00000)    COMMON        9916; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:55:652 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:652 |00000)    COMMON        9916; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:55:652 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:652 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:55:652 |00000)    COMMON        9916; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:32902 deviceID:342
+DEBUGINFO : (21:13:55:652 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:652 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:55:652 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:8086 strDeviceID:0156 curVendorID:32902 curDeviceID:342
+DEBUGINFO : (21:13:55:652 |00000)    COMMON        9916; (VEDetectorSettings.cpp:224,VEDetectorSettings::GetCheckUpdateDriverSwitch) check update driver switch : 1
+DEBUGINFO : (21:13:55:653 |00001)    COMMON        9916; (VEDetectorSettings.cpp:224,VEDetectorSettings::GetCheckUpdateDriverSwitch) check update driver switch : 1
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:32902 deviceID:342
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:8086 strDeviceID:0156 curVendorID:32902 curDeviceID:342
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (VEDetectorSettings.cpp:230,VEDetectorSettings::GetCheckVeDeviceSwitch) check ve hw device switch : 1
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (VEDetectorSettings.cpp:230,VEDetectorSettings::GetCheckVeDeviceSwitch) check ve hw device switch : 1
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:32902 deviceID:342
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:8086 strDeviceID:0156 curVendorID:32902 curDeviceID:342
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (VEDetectorSettings.cpp:236,VEDetectorSettings::GetCheckVeDeviceExSwitch) check ve hw ex device switch : 0
+DEBUGINFO : (21:13:55:653 |00000)    COMMON        9916; (VEDetectorSettings.cpp:236,VEDetectorSettings::GetCheckVeDeviceExSwitch) check ve hw ex device switch : 0
+DEBUGINFO : (21:13:55:654 |00001)    COMMON        9916; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:32902 deviceID:342
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:8086 strDeviceID:0156 curVendorID:32902 curDeviceID:342
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (VEDetectorSettings.cpp:242,VEDetectorSettings::GetCheckQt6RenderEnvSwitch) check qt render env switch : 1
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (VEDetectorSettings.cpp:242,VEDetectorSettings::GetCheckQt6RenderEnvSwitch) check qt render env switch : 1
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:391,UpdateDriver::getAllGraphicsDeviceInfo) getAllGraphicsDeviceInfo enter
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:4318 deviceID:4416
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:1140 curVendorID:4318 curDeviceID:4416
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:1518,UpdateDriver::getDeviceInfo) vendorID:32902 deviceID:342
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:1226,UpdateDriver::generateGraphcisCardInfo) enter
+DEBUGINFO : (21:13:55:654 |00000)    COMMON        9916; (updateDriver.cpp:1540,UpdateDriver::getDeviceInfo) strVendorID:10DE strDeviceID:11

@@ -1,0 +1,330 @@
+{
+    "name": "gpu driver bug list",
+    "entries": [{
+            "id": 1,
+            "description": "dx11 can crash, switch dx9",
+            "enable": 0,
+            "cr_bugs": [],
+            "comment": "HD 630,HD 3000,HD 4400,HD 4600,HD 5000,HD 6000",
+            "vendor_id": ["0x8086"],
+            "device_id": ["0x041E", "0x0412", "0x0416", "0x0A26", "0x5912", "0x591B", "0x0116", "0x0126", "0x0112", "0x0122", "0x1626"],
+            "features": [
+                "disable_d3d11_video_render"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "1.1.0.0"
+            }
+        },
+        {
+            "id": 2,
+            "description": "dx11 can crash, switch dx9",
+            "cr_bugs": [],
+            "comment": "HD 630,HD 3000,HD 4400,HD 4600,HD 5000,HD 6000",
+            "vendor_id": ["0x8086"],
+            "device_id": ["0x041E", "0x0412", "0x0416", "0x0A26", "0x5912", "0x591B", "0x0116", "0x0126", "0x0112", "0x0122", "0x1626"],
+            "features": [
+                "disable_d3d11_video_decoder"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "1.1.0.0"
+            }
+        },
+        {
+            "id": 3,
+            "description": "dx11 dx9 can crash, switch warp render",
+            "enable": 1,
+            "cr_bugs": [],
+            "comment": "HD 630,HD 3000,HD 4400,HD 4600,HD 5000,HD 6000",
+            "vendor_id": ["0x8086"],
+            "device_id": ["0x2E12", "0x2E13", "0x2E32", "0x2A42", "0x2A43", "0x2A02", "0x2E22", "0x2E23"],
+            "features": [
+                "disable_hw_video_render"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "1.1.0.0"
+            }
+        },
+        {
+            "id": 4,
+            "description": "dx11 can crash, switch dx9",
+            "enable": 0,
+            "cr_bugs": [],
+            "comment": "NVIDIA Quadro P620, GT 630",
+            "vendor_id": ["0x10DE"],
+            "device_id": ["0x0F00", "0x1CB6"],
+            "features": [
+                "disable_d3d11_video_render"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "1.1.0.0"
+            }
+        },
+        {
+            "id": 5,
+            "description": "dx11 can crash, switch dx9",
+            "cr_bugs": [],
+            "comment": "NVIDIA Quadro P620, GT 630",
+            "vendor_id": ["0x10DE"],
+            "device_id": ["0x0F00", "0x1CB6"],
+            "features": [
+                "disable_d3d11_video_decoder"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "1.1.0.0"
+            }
+        },
+        {
+            "id": 6,
+            "description": "dx11 can crash, switch dx9",
+            "enable": 0,
+            "cr_bugs": [],
+            "comment": "NVIDIA Quadro P620, GT 630",
+            "vendor_id": ["0x10DE"],
+            "device_id": ["0x0F00", "0x1CB6"],
+            "features": [
+                "disable_hw_video_render"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "1.1.0.0"
+            }
+        },
+        {
+            "id": 7,
+            "description": "use qt software render",
+            "cr_bugs": [],
+            "comment": "HD 630,HD 3000,HD 4400,HD 4600,HD 5000,HD 6000",
+            "vendor_id": ["0x8086"],
+            "device_id": ["0x041E", "0x0412", "0x0416", "0x0A26", "0x5912", "0x591B", "0x0116", "0x0126", "0x0112", "0x0122", "0x1626"],
+            "features": [
+                "disable_hw_qt_render"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "1.1.0.0"
+            },
+            "driver_version": [{
+                "op": "<",
+                "value": "10.18.14.5057"
+            }, {
+                "op": "beginwith",
+                "value": "12."
+            }, {
+                "op": "between",
+                "value": "20.0.0.0",
+                "value2": "20.19.15.5063"
+            }, {
+                "op": "between",
+                "value": "21.0.0.0",
+                "value2": "21.20.16.4727"
+            }, {
+                "op": "between",
+                "value": "22.0.0.0",
+                "value2": "22.20.16.4836"
+            }, {
+                "op": "between",
+                "value": "23.0.0.0",
+                "value2": "23.20.16.4926"
+            }, {
+                "op": "between",
+                "value": "24.0.0.0",
+                "value2": "24.20.100.6025"
+            }]
+        },
+        {
+            "id": 8,
+            "description": "use qt software render",
+            "cr_bugs": [],
+            "comment": "NVIDIA Quadro P620, GT 630",
+            "vendor_id": ["0x10DE"],
+            "device_id": ["0x0F00", "0x1CB6"],
+            "features": [
+                "disable_hw_qt_render"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "1.1.0.0"
+            },
+            "driver_version": [{
+                "op": "<",
+                "value": "23.21.13.9065"
+            }]
+        },
+        {
+            "id": 9,
+            "description": "[AMD] disable hw decode, for some driver version",
+            "cr_bugs": [],
+            "comment": "AMD HD 7560,AMD HD 7670",
+            "vendor_id": ["0x1002"],
+            "device_id": ["0x675B", "0x68D9"],
+            "features": [
+                "disable_hw_video_decode"
+            ],
+            "driver_version": [{
+                "op": "<=",
+                "value": "15.300.1025.1001"
+            }],
+            "app_version": {
+                "op": ">=",
+                "value": "2.1.0.0"
+            }
+        },
+        {
+            "id": 10,
+            "description": "[Intel] disable hevc decode, for some driver version",
+            "cr_bugs": [],
+            "comment": "Intel HD 4000",
+            "vendor_id": ["0x8086"],
+            "device_id": ["0x1626", "0x1622", "0x0A16","0x1616", "0x0412", "0x1299", "0x162B", "0x0D22"],
+            "features": [
+                "disable_accelerated_hevc_decode"
+            ],
+            "driver_version": [{
+                "op": "=",
+                "value": "20.19.15.5171"
+            },
+            {
+                "op": "=",
+                "value": "20.19.15.5126"
+            },
+            {
+                "op": "=",
+                "value": "20.19.15.4835"
+            },
+            {
+                "op": "=",
+                "value": "20.19.15.5107"
+            },
+            {
+                "op": "=",
+                "value": "20.19.15.4642"
+            }],
+            "app_version": {
+                "op": ">=",
+                "value": "2.1.5.0"
+            }
+        },
+        {
+            "id": 11,
+            "description": "[Intel] disable hevc decode, all driver version",
+            "cr_bugs": [],
+            "comment": "Intel HD 4000",
+            "vendor_id": ["0x8086"],
+            "device_id": ["0x0416", "0x041E","0x191B","0x1916", "0x0D26"],
+            "features": [
+                "disable_accelerated_hevc_decode"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "2.1.5.0"
+            }
+        },
+        {
+            "id": 12,
+            "description": "[Nvidia] disable hevc decode, all driver version",
+            "cr_bugs": [],
+            "comment": "GTX 750",
+            "vendor_id": ["0x10DE"],
+            "device_id": ["0x1380", "0x11C6","0x11B4","0x1381","0x1004", "0x13F1"],
+            "features": [
+                "disable_accelerated_hevc_decode"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "2.1.5.0"
+            }
+        },
+        {
+            "id": 13,
+            "description": "[AMD] disable hevc decode, for some driver version",
+            "cr_bugs": [],
+            "comment": "AMD RX 580",
+            "vendor_id": ["0x1002"],
+            "device_id": ["0x6FDF"],
+            "features": [
+                "disable_accelerated_hevc_decode"
+            ],
+            "driver_version": [{
+                "op": "=",
+                "value": "27.20.14501.28009"
+            }],
+            "app_version": {
+                "op": ">=",
+                "value": "2.1.5.0"
+            }
+        },
+        {
+            "id": 14,
+            "description": "[AMD] disable hevc encode, all driver version",
+            "cr_bugs": [],
+            "comment": "Vega 8",
+            "vendor_id": ["0x1002"],
+            "device_id": ["0x15D8","0x1636","0x164C"],
+            "features": [
+                "disable_accelerated_hevc_encode"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "2.6.0.0"
+            }
+        },
+        {
+            "id": 15,
+            "description": "[AMD] disable h264 encode, all driver version",
+            "cr_bugs": [],
+            "comment": "Vega 8",
+            "vendor_id": ["0x1002"],
+            "device_id": ["0x15D8","0x1636","0x164C"],
+            "features": [
+                "disable_accelerated_h264_encode"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "2.6.0.0"
+            }
+        },
+        {
+            "id": 16,
+            "description": "[Nvidia] disable hevc decode, for some driver version",
+            "cr_bugs": [],
+            "comment": "NVIDIA Quadro",
+            "vendor_id": ["0x10DE"],
+            "device_id": ["0x1430", "0x1CB1"],
+            "features": [
+                "disable_accelerated_hevc_decode"
+            ],
+            "driver_version": [{
+                "op": "=",
+                "value": "24.21.13.9793"
+            },
+            {
+                "op": "=",
+                "value": "23.21.13.9135"
+            }],
+            "app_version": {
+                "op": ">=",
+                "value": "2.1.5.0"
+            }
+        },
+        {
+            "id": 17,
+            "description": "[Intel] disable d3d11 compute shader, for all driver version",
+            "cr_bugs": [],
+            "comment": "Intel(R) HD Graphics 4000",
+            "vendor_id": ["0x8086"],
+            "device_id": ["0x0152", "0x0166"],
+            "features": [
+                "disable_d3d11_compute_shader"
+            ],
+            "app_version": {
+                "op": ">=",
+                "value": "3.2.0.0"
+            }
+        }        
+    ]
+}

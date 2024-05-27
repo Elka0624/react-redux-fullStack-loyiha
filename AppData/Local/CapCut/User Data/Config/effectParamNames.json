@@ -1,0 +1,23 @@
+{
+    "effects_adjust_background_animation": "Атмоcфера",
+    "effects_adjust_blur": "Размытие",
+    "effects_adjust_color": "Цвет",
+    "effects_adjust_distortion": "Проворот",
+    "effects_adjust_filter": "Фильтры",
+    "effects_adjust_horizontal_chromatic": "Lateral chromatic aberration",
+    "effects_adjust_horizontal_shift": "Горизонтальный",
+    "effects_adjust_intensity": "Сила",
+    "effects_adjust_luminance": "Сияние",
+    "effects_adjust_noise": "Шум",
+    "effects_adjust_number": "Количество",
+    "effects_adjust_range": "Диапазон",
+    "effects_adjust_rotate": "Повернуть",
+    "effects_adjust_sharpen": "Резкость",
+    "effects_adjust_size": "Размер",
+    "effects_adjust_soft": "Мягкий свет",
+    "effects_adjust_speed": "Скорость",
+    "effects_adjust_texture": "Текстура",
+    "effects_adjust_vertical_chromatic": "Longitudinal chromatic aberration",
+    "effects_adjust_vertical_shift": "Вертикальный",
+    "sticker": "Стикеры"
+}

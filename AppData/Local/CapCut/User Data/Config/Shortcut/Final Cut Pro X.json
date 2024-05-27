@@ -1,0 +1,210 @@
+{
+    "name": "Final Cut Pro X",
+    "sequence": {
+        "activeSpeedControl": [
+            "Ctrl+R"
+        ],
+        "addKeyframe": [
+            "Shift+LeftMouseButton"
+        ],
+        "adsorb": [
+            "N"
+        ],
+        "backwardSelect": [
+            "]",
+            "】"
+        ],
+        "batchCut": [
+            "Ctrl+Shift+B"
+        ],
+        "cancelRangeSelect": [
+            "Alt+X"
+        ],
+        "closeDialog": [
+            "Escape"
+        ],
+        "closeWindow": [
+            "Ctrl+W"
+        ],
+        "copy": [
+            "Ctrl+C"
+        ],
+        "customMattingSwitchAiEraser": [
+            "Alt"
+        ],
+        "cut": [
+            "Ctrl+X"
+        ],
+        "cutLeft": [
+            "Q"
+        ],
+        "cutRight": [
+            "W"
+        ],
+        "cutoff": [
+            "Ctrl+B"
+        ],
+        "del": [
+            "Backspace",
+            "Del"
+        ],
+        "disableAlignment": [
+            "Ctrl_hold"
+        ],
+        "divideSpeedSegment": [
+            "Shift+B"
+        ],
+        "expandKeyframePanel": [
+            "Alt+K"
+        ],
+        "exportVideo": [
+            "Ctrl+E"
+        ],
+        "forwardSelect": [
+            "[",
+            "【"
+        ],
+        "importMedia": [
+            "Ctrl+I"
+        ],
+        "linkage": [
+            "`",
+            "·"
+        ],
+        "locateFirstFrame": [
+            "Home"
+        ],
+        "locateLastFrame": [
+            "End"
+        ],
+        "mainTrackAdsorb": [
+            "P"
+        ],
+        "markBeat": [
+            "Ctrl+J"
+        ],
+        "newProject": [
+            "Ctrl+N"
+        ],
+        "nextCutPoint": [
+            "Down"
+        ],
+        "nextFrame": [
+            "Right"
+        ],
+        "paste": [
+            "Ctrl+V"
+        ],
+        "prerenderSelectArea": [
+            "Shift+Return"
+        ],
+        "prevCutPoint": [
+            "Up"
+        ],
+        "prevFrame": [
+            "Left"
+        ],
+        "preview": [
+            "S"
+        ],
+        "quit": [
+            "Ctrl+Q"
+        ],
+        "redo": [
+            "Ctrl+Shift+Z"
+        ],
+        "refreshCloudDraft": [
+            "Ctrl+R"
+        ],
+        "returnDraftPage": [
+            "Ctrl+Alt+Q"
+        ],
+        "roughCutHead": [
+            "I"
+        ],
+        "roughCutTail": [
+            "O"
+        ],
+        "scrollTrackH": [
+            "Alt+Wheel"
+        ],
+        "scrollTrackScale": [
+            "Ctrl+Wheel"
+        ],
+        "scrollTrackV": [
+            "Wheel"
+        ],
+        "segmentCombination": [
+            "Alt+G"
+        ],
+        "segmentMakeGroup": [
+            "Ctrl+G"
+        ],
+        "segmentRemoveCombination": [
+            "Alt+Shift+G"
+        ],
+        "segmentRemoveGroup": [
+            "Ctrl+Shift+G"
+        ],
+        "selectAll": [
+            "Ctrl+A"
+        ],
+        "selectRangeBySegment": [
+            "Shift+X"
+        ],
+        "selectRangeEnd": [
+            "O"
+        ],
+        "selectRangeStart": [
+            "I"
+        ],
+        "storeSingelFrame": [
+            ""
+        ],
+        "subtitleNewLine": [
+            "Ctrl+Return"
+        ],
+        "subtitleSplit": [
+            "Return"
+        ],
+        "switchTab": [
+            "Tab"
+        ],
+        "switchToCut": [
+            "B"
+        ],
+        "switchToSelect": [
+            "A"
+        ],
+        "toggleFullscreen": [
+            "Ctrl+Shift+F"
+        ],
+        "togglePlay": [
+            "Space"
+        ],
+        "toggleSegmentVisibe": [
+            "V"
+        ],
+        "toggleVideoAudio": [
+            "Ctrl+Shift+S"
+        ],
+        "undo": [
+            "Ctrl+Z"
+        ],
+        "voiceDown": [
+            "Ctrl+,",
+            "Ctrl+，"
+        ],
+        "voiceUp": [
+            "Ctrl+.",
+            "Ctrl+。"
+        ],
+        "zoomIn": [
+            "Ctrl++",
+            "Ctrl+="
+        ],
+        "zoomOut": [
+            "Ctrl+-"
+        ]
+    }
+}

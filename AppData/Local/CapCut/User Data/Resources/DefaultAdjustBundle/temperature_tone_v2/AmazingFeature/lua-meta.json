@@ -1,0 +1,94 @@
+[
+    {
+        "ClassName": "Lscript",
+        "Super": "ScriptComponent",
+        "FilePath": "lua/Lscript.lua",
+        "FileAbsPath": "/Users/apple/Documents/\u4e1a\u52a1\u9700\u6c42/\u526a\u6620/2022.3-4/\u8272\u6e29\u8272\u8c03\uff0c\u5171\u7528\u4e00\u4e2a\u5305 2/\u8272\u6e29\u8272\u8c03-\u6781\u503c\u8c03\u6574/AmazingFeature/lua/Lscript.lua",
+        "Properties": [
+            {
+                "VarName": "ColorTemperature",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    2500.0,
+                                    10500.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Slider",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "VarName": "ColorTones",
+                "VarType": "Double",
+                "Comment": "",
+                "AnnoItems": [
+                    {
+                        "ItemType": "UI",
+                        "Attributes": [
+                            {
+                                "AttrType": "Range",
+                                "RawValue": "",
+                                "Values": [
+                                    -100.0,
+                                    100.0
+                                ]
+                            },
+                            {
+                                "AttrType": "Slider",
+                                "RawValue": "",
+                                "Values": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Methods": [
+            {
+                "FuncName": "new",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "vec3Compute",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "constructor",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onStart",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onUpdate",
+                "Params": [],
+                "Comment": ""
+            },
+            {
+                "FuncName": "onEvent",
+                "Params": [],
+                "Comment": ""
+            }
+        ],
+        "Comment": "",
+        "ExportFiles": []
+    }
+]

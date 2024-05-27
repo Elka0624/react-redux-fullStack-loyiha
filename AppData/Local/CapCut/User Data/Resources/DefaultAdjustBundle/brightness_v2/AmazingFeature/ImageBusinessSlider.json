@@ -1,0 +1,25 @@
+{
+	"ImageBusinessSlider" : 
+	{
+		"LV" : 
+		{
+			"filter" : 
+			{
+				"materialValue" : 
+				{
+					"13709558817586901710,7827833601312119469" : 
+					{
+						"light" : 
+						{
+							"entityName" : "Pass1",
+							"maxValue" : 1.0,
+							"minValue" : -1.0
+						}
+					}
+				},
+				"sliderIntensity" : 50.0
+			}
+		},
+		"retouch" : null
+	}
+}

@@ -1,0 +1,327 @@
+{
+    "allDockWidgets": [
+        {
+            "lastPosition": {
+                "lastFloatingGeometry": {
+                    "height": 0,
+                    "width": 0,
+                    "x": 0,
+                    "y": 0
+                },
+                "placeholders": [
+                    {
+                        "isFloatingWindow": false,
+                        "itemIndex": 3,
+                        "mainWindowUniqueName": "edit"
+                    }
+                ],
+                "wasFloating": false
+            },
+            "uniqueName": "timeline"
+        },
+        {
+            "lastPosition": {
+                "lastFloatingGeometry": {
+                    "height": 0,
+                    "width": 0,
+                    "x": 0,
+                    "y": 0
+                },
+                "placeholders": [
+                    {
+                        "isFloatingWindow": false,
+                        "itemIndex": 2,
+                        "mainWindowUniqueName": "edit"
+                    }
+                ],
+                "wasFloating": false
+            },
+            "uniqueName": "setting"
+        },
+        {
+            "lastPosition": {
+                "lastFloatingGeometry": {
+                    "height": 0,
+                    "width": 0,
+                    "x": 0,
+                    "y": 0
+                },
+                "placeholders": [
+                    {
+                        "isFloatingWindow": false,
+                        "itemIndex": 1,
+                        "mainWindowUniqueName": "edit"
+                    }
+                ],
+                "wasFloating": false
+            },
+            "uniqueName": "player"
+        },
+        {
+            "lastPosition": {
+                "lastFloatingGeometry": {
+                    "height": 0,
+                    "width": 0,
+                    "x": 0,
+                    "y": 0
+                },
+                "placeholders": [
+                    {
+                        "isFloatingWindow": false,
+                        "itemIndex": 0,
+                        "mainWindowUniqueName": "edit"
+                    }
+                ],
+                "wasFloating": false
+            },
+            "uniqueName": "material"
+        }
+    ],
+    "closedDockWidgets": [
+    ],
+    "floatingWindows": [
+    ],
+    "mainWindow": {
+        "geometry": {
+            "height": 728,
+            "width": 1366,
+            "x": 0,
+            "y": 0
+        },
+        "isVisible": true,
+        "multiSplitterLayout": {
+            "frames": {
+                "12": {
+                    "dockWidgets": [
+                        "setting"
+                    ],
+                    "geometry": {
+                        "height": 378,
+                        "width": 395,
+                        "x": 955,
+                        "y": 0
+                    },
+                    "id": "12",
+                    "isNull": false,
+                    "mainWindowUniqueName": "edit",
+                    "objectName": "setting"
+                },
+                "13": {
+                    "dockWidgets": [
+                        "material"
+                    ],
+                    "geometry": {
+                        "height": 378,
+                        "width": 549,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "id": "13",
+                    "isNull": false,
+                    "mainWindowUniqueName": "edit",
+                    "objectName": "material"
+                },
+                "14": {
+                    "dockWidgets": [
+                        "player"
+                    ],
+                    "geometry": {
+                        "height": 378,
+                        "width": 396,
+                        "x": 554,
+                        "y": 0
+                    },
+                    "id": "14",
+                    "isNull": false,
+                    "mainWindowUniqueName": "edit",
+                    "objectName": "player"
+                },
+                "15": {
+                    "dockWidgets": [
+                        "timeline"
+                    ],
+                    "geometry": {
+                        "height": 301,
+                        "width": 1350,
+                        "x": 0,
+                        "y": 383
+                    },
+                    "id": "15",
+                    "isNull": false,
+                    "mainWindowUniqueName": "edit",
+                    "objectName": "timeline"
+                }
+            },
+            "layout": {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "guestId": "13",
+                                "isContainer": false,
+                                "isVisible": true,
+                                "objectName": "material",
+                                "sizingInfo": {
+                                    "geometry": {
+                                        "height": 378,
+                                        "width": 549,
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "maxSize": {
+                                        "height": 30000,
+                                        "width": 30000
+                                    },
+                                    "minSize": {
+                                        "height": 240,
+                                        "width": 504
+                                    }
+                                }
+                            },
+                            {
+                                "guestId": "14",
+                                "isContainer": false,
+                                "isVisible": true,
+                                "objectName": "player",
+                                "sizingInfo": {
+                                    "geometry": {
+                                        "height": 378,
+                                        "width": 396,
+                                        "x": 554,
+                                        "y": 0
+                                    },
+                                    "maxSize": {
+                                        "height": 30000,
+                                        "width": 30000
+                                    },
+                                    "minSize": {
+                                        "height": 240,
+                                        "width": 364
+                                    }
+                                }
+                            },
+                            {
+                                "guestId": "12",
+                                "isContainer": false,
+                                "isVisible": true,
+                                "objectName": "setting",
+                                "sizingInfo": {
+                                    "geometry": {
+                                        "height": 378,
+                                        "width": 395,
+                                        "x": 955,
+                                        "y": 0
+                                    },
+                                    "maxSize": {
+                                        "height": 30000,
+                                        "width": 30000
+                                    },
+                                    "minSize": {
+                                        "height": 240,
+                                        "width": 360
+                                    }
+                                }
+                            }
+                        ],
+                        "isContainer": true,
+                        "isVisible": false,
+                        "objectName": "",
+                        "orientation": 1,
+                        "sizingInfo": {
+                            "geometry": {
+                                "height": 378,
+                                "width": 1350,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "maxSize": {
+                                "height": 30000,
+                                "width": 90010
+                            },
+                            "minSize": {
+                                "height": 240,
+                                "width": 1238
+                            }
+                        }
+                    },
+                    {
+                        "guestId": "15",
+                        "isContainer": false,
+                        "isVisible": true,
+                        "objectName": "timeline",
+                        "sizingInfo": {
+                            "geometry": {
+                                "height": 301,
+                                "width": 1350,
+                                "x": 0,
+                                "y": 383
+                            },
+                            "maxSize": {
+                                "height": 30000,
+                                "width": 30000
+                            },
+                            "minSize": {
+                                "height": 200,
+                                "width": 900
+                            }
+                        }
+                    }
+                ],
+                "isContainer": true,
+                "isVisible": false,
+                "objectName": "",
+                "orientation": 2,
+                "sizingInfo": {
+                    "geometry": {
+                        "height": 684,
+                        "width": 1350,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "maxSize": {
+                        "height": 16777215,
+                        "width": 16777215
+                    },
+                    "minSize": {
+                        "height": 90,
+                        "width": 80
+                    }
+                }
+            }
+        },
+        "normalGeometry": {
+            "height": 486,
+            "width": 1252,
+            "x": 113,
+            "y": 141
+        },
+        "ratioFromScreen": {
+            "height": 0.9466145833333334,
+            "width": 0.9992679355783309,
+            "x": 0,
+            "y": 0
+        },
+        "screenIndex": 0,
+        "screenName": "\\\\.\\DISPLAY1",
+        "screenSize": {
+            "height": 768,
+            "width": 1366
+        },
+        "uniqueName": "edit",
+        "windowState": 2
+    },
+    "screenInfo": [
+        {
+            "devicePixelRatio": 1,
+            "geometry": {
+                "height": 768,
+                "width": 1366,
+                "x": 0,
+                "y": 0
+            },
+            "index": 0,
+            "name": "\\\\.\\DISPLAY1"
+        }
+    ],
+    "serializationVersion": 2
+}

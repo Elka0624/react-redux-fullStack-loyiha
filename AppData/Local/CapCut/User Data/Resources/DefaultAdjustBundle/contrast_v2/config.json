@@ -1,0 +1,12 @@
+{
+    "effect": {
+        "Link": [{
+            "path": "AmazingFeature/",
+            "type": "AmazingFeature",
+            "zorder": 999
+        }]
+    },
+    "bALG_BACH_CONFIG": false,
+    "name": "2022_03_07_18_41_19_1f7d056a9e0311ecbec8acde48001122",
+    "version": "10.1.0"
+}

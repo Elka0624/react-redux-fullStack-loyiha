@@ -1,0 +1,207 @@
+{
+    "name": "Custom2",
+    "sequence": {
+        "activeSpeedControl": [
+            "Ctrl+R"
+        ],
+        "addKeyframe": [
+            "Shift+LeftMouseButton"
+        ],
+        "adsorb": [
+            "S"
+        ],
+        "backwardSelect": [
+            "A"
+        ],
+        "batchCut": [
+            "Ctrl+Shift+K"
+        ],
+        "cancelRangeSelect": [
+            "Alt+X"
+        ],
+        "closeDialog": [
+            "Escape"
+        ],
+        "closeWindow": [
+            "Ctrl+W"
+        ],
+        "copy": [
+            "Ctrl+C"
+        ],
+        "customMattingSwitchAiEraser": [
+            "Alt"
+        ],
+        "cut": [
+            "Ctrl+X"
+        ],
+        "cutLeft": [
+            "Q"
+        ],
+        "cutRight": [
+            "W"
+        ],
+        "cutoff": [
+            "Ctrl+K"
+        ],
+        "del": [
+            "Backspace",
+            "Del"
+        ],
+        "disableAlignment": [
+            "Ctrl_hold"
+        ],
+        "divideSpeedSegment": [
+            "Shift+B"
+        ],
+        "expandKeyframePanel": [
+            "Alt+K"
+        ],
+        "exportVideo": [
+            "Ctrl+M"
+        ],
+        "forwardSelect": [
+            "Shift+A"
+        ],
+        "importMedia": [
+            "Ctrl+I"
+        ],
+        "linkage": [
+            "Ctrl+L"
+        ],
+        "locateFirstFrame": [
+            "Home"
+        ],
+        "locateLastFrame": [
+            "End"
+        ],
+        "mainTrackAdsorb": [
+            "Shift+Backspace"
+        ],
+        "markBeat": [
+            "Ctrl+J"
+        ],
+        "newProject": [
+            "Ctrl+N"
+        ],
+        "nextCutPoint": [
+            "Down"
+        ],
+        "nextFrame": [
+            "Right"
+        ],
+        "paste": [
+            "Ctrl+V"
+        ],
+        "prerenderSelectArea": [
+            "Shift+Return"
+        ],
+        "prevCutPoint": [
+            "Up"
+        ],
+        "prevFrame": [
+            "Left"
+        ],
+        "preview": [
+            "Shift+P"
+        ],
+        "quit": [
+            "Ctrl+Q"
+        ],
+        "redo": [
+            "Ctrl+Shift+Z"
+        ],
+        "refreshCloudDraft": [
+            "Ctrl+R"
+        ],
+        "returnDraftPage": [
+            "Ctrl+Alt+Q"
+        ],
+        "roughCutHead": [
+            "I"
+        ],
+        "roughCutTail": [
+            "O"
+        ],
+        "scrollTrackH": [
+            "Alt+Wheel"
+        ],
+        "scrollTrackScale": [
+            "Ctrl+Wheel"
+        ],
+        "scrollTrackV": [
+            "Wheel"
+        ],
+        "segmentCombination": [
+            "Alt+G"
+        ],
+        "segmentMakeGroup": [
+            "Ctrl+G"
+        ],
+        "segmentRemoveCombination": [
+            "Alt+Shift+G"
+        ],
+        "segmentRemoveGroup": [
+            "Ctrl+Shift+G"
+        ],
+        "selectAll": [
+            "Ctrl+A"
+        ],
+        "selectRangeBySegment": [
+            "Shift+X"
+        ],
+        "selectRangeEnd": [
+            "O"
+        ],
+        "selectRangeStart": [
+            "I"
+        ],
+        "storeSingelFrame": [
+            ""
+        ],
+        "subtitleNewLine": [
+            "Ctrl+Return"
+        ],
+        "subtitleSplit": [
+            "Return"
+        ],
+        "switchTab": [
+            "Tab"
+        ],
+        "switchToCut": [
+            "C"
+        ],
+        "switchToSelect": [
+            "V"
+        ],
+        "toggleFullscreen": [
+            "`"
+        ],
+        "togglePlay": [
+            "Space"
+        ],
+        "toggleSegmentVisibe": [
+            "Shift+E"
+        ],
+        "toggleVideoAudio": [
+            "Alt+Shift+L"
+        ],
+        "undo": [
+            "Ctrl+Z"
+        ],
+        "voiceDown": [
+            "Ctrl+,",
+            "Ctrl+，"
+        ],
+        "voiceUp": [
+            "Ctrl+.",
+            "Ctrl+。"
+        ],
+        "zoomIn": [
+            "+",
+            "="
+        ],
+        "zoomOut": [
+            "-"
+        ]
+    }
+}

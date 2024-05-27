@@ -1,0 +1,48 @@
+{
+    "ban_young_config": {
+        "ban_time": 0,
+        "scene": "",
+        "young_ban": false,
+        "young_check": false
+    },
+    "block_config": {
+        "functions": [
+            "ai_painting",
+            "ai_painting_v2"
+        ],
+        "modules": null,
+        "play": [
+            "face_swap_morphing_qixi_modern",
+            "hd_gender_swap_tt@female",
+            "img2video_guozov@vapour",
+            "img2video_3dmove@korean_manga",
+            "img2video_3dmove@real_barbie_us",
+            "img2video_3dmove@real_barbie_asia",
+            "img2video_3dmove@firework_festival",
+            "img2video_3dmove@cyber_future",
+            "prompt_img2img_ai_portrait_async_jy_brav5",
+            "img2video_guozov@pixel",
+            "face_swap_morphing@id_nv",
+            "img2img_anime_v2_cc@CC_snowy",
+            "img2video_guozov@science",
+            "face_swap_morphing_qixi_wedding",
+            "prompt_img2img_ai_portrait_async_jy_cyberrealistic",
+            "sky_change_video@white",
+            "img2video_3dmove@infinity_travel_us",
+            "face_swap_morphing@vn_nan",
+            "face_swap_morphing@id_nan",
+            "face_swap_morphing@vn_nv",
+            "img2img_anime_v2_cc@CC_freckle",
+            "img2video_3dmove@cyber_future_jk",
+            "img2video_3dmove@infinity_travel_jk",
+            "sky_change_video@yellow",
+            "beauty_boy",
+            "prompt_img2img_ai_portrait_async_jy_moyou",
+            "hd_gender_swap_tt@male"
+        ]
+    },
+    "replicate_config": {
+        "enable": false,
+        "full": false
+    }
+}
